@@ -19,7 +19,7 @@ This section will provide a step-by-step guide on how to operate and interact wi
 A detailed Bill of Materials (BOM) required to build the Tinker robot will be listed here. It includes hardware components, sensors, and other necessary parts.
 
 ## Tinker Assembly Guide
-Comprehensive instructions on how to assemble Tinker from scratch, complete with images and videos, will be made available in this section.
+Comprehensive instructions on how to assemble Tinker from scratch, complete with images, will be made available in this section.
 
 ## Tinker Custom Development
 Explore how to extend and enhance Tinker’s functionalities through custom development. This section will cover software development, hardware customization, and integration with external sensors or controllers.
