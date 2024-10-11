@@ -26,4 +26,8 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 
 ---
 
-Feel free to customize this further based on specific content for each section!
+## License
+
+AGPL-3.0
+
+**Feel free to customize this further based on specific content for each section!**
