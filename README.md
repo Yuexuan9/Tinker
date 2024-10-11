@@ -4,6 +4,11 @@
 
 Through Tinker, users will not only gain insights into the fundamental principles of robot movement and control, but also have the opportunity to personalize and enhance their projects. We aim to inspire more people to explore and engage with robotics technology through this initiative.
 
+## Features
+- Reinforcement Learning-Based Control
+- Step-by-Step Assembly Instructions
+- Customization and Expansion
+
 ## Table of Contents
 - [Tinker Usage Guide](#tinker-usage-guide)
 - [Tinker BOM List](#tinker-bom-list)
@@ -30,4 +35,5 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 
 AGPL-3.0
 
-**Feel free to customize this further based on specific content for each section!**
+
+✨Feel free to customize this further based on specific content for each section!✨
