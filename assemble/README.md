@@ -1,2 +1,129 @@
 # Tinker
 ## _An Open-Source Bipedal Robot_
+## Hardware Assembly
+Tinker V1 version simulates the primary structure of Disney's biped robot, featuring 5 degrees of freedom (DoF) per leg and powered by a 24V battery. The total weight is approximately 10 kg. It uses CAN servo communication to achieve high real-time 1KHz low-level communication and can deploy reinforcement learning algorithms for driving. The head uses a 3-DoF servo to adjust pitch and yaw angles, supporting SDK for secondary development:
+![ ](image_path)
+
+Robot Reference Model:
+*(Content not available to display here)*
+
+- ### Assembling the Middle Frame
+First, complete the assembly of the middle frame structure. Before installation, ensure all motors are calibrated and parameters configured. During assembly, connect the CAN and power lines of each motor to facilitate welding after assembly:
+
+| Motor   | CAN ID | Model |
+|---------|--------|-------|
+| Yaw     | 1      | 6006  |
+| Roll    | 2      | 8006  |
+| Thigh   | 3      | 8006  |
+| Shin    | 4      | 8006  |
+| Ankle   | 5      | 6006  |
+
+The motor ID sequence for both legs is consistent, as shown below:
+![ ](image_path)
+
+First, install the power board and base plate, and complete the installation of the support base. Note that the notch at the back of the base plate is where the battery is located, and the PCB 24V DC terminal is located here:
+![ ](image_path)
+
+Then use M4 screws to install the bottom support:
+![ ](image_path)
+
+Install the top plate and two 6006 motors. Align the debugging port with the notch:
+![ ](image_path)
+
+Mount the aluminum structure on the 6006 motors:
+![ ](image_path)
+
+Install two 8008 motors and aluminum supports to assemble with the above 6006 motors:
+![ ](image_path)
+
+Complete the installation of the thigh motors and aluminum structures. The roll structure should bend downwards. Note that when installing the thigh motors, there is a separate carbon fiber support:
+![ ](image_path)
+
+Assemble the thigh structure with the roll structure, ensuring the orientation of the head and aluminum structure:
+![ ](image_path)
+
+After completing the assembly of the 6 motors, use carbon fiber beams to assemble the upper and lower plates, finishing the middle frame assembly:
+![ ](image_path)
+
+- ### Assembling the Thighs
+After completing the middle frame assembly, proceed with the thigh assembly. Ensure all motor wires are connected properly, and check the orientation of the head and thigh arm cutouts:
+![ ](image_path)
+
+Once the thigh carbon plates are installed, install the left and right cable protection structures. Pay attention to the notch position and ensure the motor wires are routed correctly:
+![ ](image_path)
+
+- ### Assembling the Shin
+Assembling the shin is relatively simple. Secure the motor and route the cables as shown in the diagram:
+![ ](image_path)
+
+Route the foot-end cables through the shin's carbon plate groove, bundling them with the shin motor cables:
+![ ](image_path)
+
+Finally, install the foot end with a separate carbon fiber support:
+![ ](image_path)
+
+- ### Installing the Battery
+Install the battery and the chest's printed structure:
+![ ](image_path)
+
+Route the battery power cables upwards, and connect the power wiring and air switch input/output connections. Install the air switch and its mounting structure:
+![ ](image_path)
+
+- ### Installing the Main Control Board
+Before installing the main control system, ensure all control units are configured. Install the Odroid controller, router, and servo driver board according to the diagram:
+![ ](image_path)
+
+Mount the Jetson Nano on the back using the printed support structure:
+![ ](image_path)
+
+After completing the main control system's hardware installation, secure it to the body using the support structure:
+![ ](image_path)
+
+With the above steps, the Tinker assembly is complete. Before installing the head, perform electrical welding and gait testing. Only install the head once no errors are detected to avoid damage from falls.
+
+## Electrical Wiring Diagram
+After completing the mechanical structure assembly, begin electrical wiring. The following diagram shows the power supply for the entire Tinker. The CAN and power wires of a single leg can be merged into one path inside the body and plugged into the main controller and distribution board:
+*(Content not available to display here)*
+
+For communication cables, the left and right legs' CAN lines are combined into one. On the STM32 carrier board, the left leg connects to CAN1, and the right leg connects to CAN3. The servo board is connected via UART2, with the IO definitions shown on the silkscreen. Ensure TX on the servo board is connected to TX on the carrier board, and RX to RX.
+
+## Prototype Testing
+1. After completing hardware assembly and servo system installation, verify polarity before powering up. Connect to the router, check the IP of the main controller, and start the three control programs either manually or automatically.
+2. Open the upper computer to confirm that data feedback is normal, with joint angles consistent with the coordinate system definitions. You can use Rviz to check URDF for the correct motor directions:
+
+```bash
+roslaunch urdf_tutorial display.launch model:=/home/pi/Downloads/LocomotionWithNP3O-master/resources//tinker/urdf/tinker_urdf.urdf
+```
+
+3. Insert the game controller, open the upper computer, and place the robot on a flat surface to calibrate the joints. Ensure symmetry between the legs and follow the steps for joint alignment. Avoid wearing sleeves during calibration to prevent errors:
+![ ](image_path)
+
+4. Re-power the robot (important: some motors need re-powering after calibration). Lift the robot, hold down the X button, and check if the legs retract to the crouched position. The robot should stand when placed on the ground.
+
+## Installing the Head
+Once electrical testing and gait tests are complete, proceed with head installation. Before installing the neck, reset all servos to 0 positions using the upper control software. Then, install the servos in the following angles and positions, ensuring the correct servo IDs and models:
+| Motor      | Servo ID | Model  |
+|------------|----------|--------|
+| Pitch 1    | 0        | SCS40  |
+| Pitch 2    | 1        | SCS40  |
+| Yaw        | 2        | SCS125 |
+
+![ ](image_path)
+
+After soldering the servo power wires and combining them into one path, connect them to the servo driver board.
+
+## Full System Test
+Once the head and the robot are fully assembled, perform a complete system test:
+1. **Power On**: 
+   Ensure that joint calibration is complete before powering up. Lift the robot with its legs vertical and hold down the X button. The robot should retract its legs into a crouched position. If everything is functioning correctly, the robot should stand stably on the ground using position control loops.
+   
+   If there are issues with the motor rotation, press the ↓ button to cut off power.
+
+2. **Start RL Program**: 
+   Refer to previous instructions to start the RL software, and verify that data is refreshing correctly.
+
+3. **Gait Control**: 
+   In standing mode, press the X button again to activate RL-based gait control. The left joystick controls XY velocity, and the rear triggers control the yaw direction. If the robot operates normally, you can control its movement.
+
+4. **Head Control**: 
+   The right joystick can be used to control the head angle remotely. In disabled mode, pressing the A button enters recording mode, allowing you to move the head manually. Pressing the B button stops recording, and pressing Start will automatically play back the motion (this feature is still being updated). The recorded file is saved in the `Motion` folder as a `.txt` file.
