@@ -1,4 +1,6 @@
-# Tinker: An Open-Source Bipedal Robot
+# Tinker
+## _An Open-Source Bipedal Robot_
+Tinker primarily uses reinforcement learning for control. Below is the complete tutorial for deploying the robot. If the corresponding hardware modules are provided by RoboHome, you can skip the relevant sections.
 
 ## Recommended Setup and Debugging Steps
 1. **Prepare Materials**: Follow the Tinker BOM checklist.
@@ -128,7 +130,10 @@ If Tinker is equipped with a head, you need to configure the servos on the bus. 
 
 The STM32 carrier board is accompanied by a custom-developed upper computer. After connecting the USB converter to the corresponding interface on the STM32 carrier board, ensure that the power supply is stable. Then, open the upper computer software and connect to the virtual COM port. If the virtual COM port is not detected, you may need to install the necessary drivers:  
 
-Next, open the actuator interface and configure it as shown below. Select the corresponding motor type and the appropriate direction settings, then save the motor configuration:  
+Next, open the actuator interface and configure it as shown below. Select the corresponding motor type and the appropriate direction settings, then save the motor configuration: 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/0/whiteboard_ug1.png" width="300" />
+</div>
 
 **V1:** Please note that the image folder in the upper computer software must be placed in the root directory of the D drive.  
 
@@ -172,6 +177,10 @@ After completing the software setup, you need to follow the assembly guide to co
 
 For standard model testing, we recommend using a server to perform inference tests to ensure the real-time solution of the model. Control commands are transmitted to the robot's controller over a UDP network to drive the robot.  
 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/0/whiteboard_ug2.png" height="150" />
+</div>
+
 We recommend the following server configuration for sampling:  
 
 | Component   | Description                |
@@ -200,7 +209,11 @@ Inside the `build` folder, run `make` and execute `udp_publish_tinker`. If every
 
 To achieve fast RL control, we recommend using UDP for deployment testing after training to verify the basic functionality of the model. Once verified, you can proceed with converting and deploying the model at the edge. The commands will be sent directly to the robot via UDP. The system connection is shown below (currently, we are using a 4060 training GPU with a time per iteration of approximately 1.1s under 1024 environments. In the future, we will also release a dedicated RL suite to help configure the hardware, enabling training and deployment right out of the box).
 
-To achieve edge-side deployment, we use JetsonNano instead of a server, running the previously migrated software:  
+To achieve edge-side deployment, we use JetsonNano instead of a server, running the previously migrated software:
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/0/whiteboard_ug3.png" height="150" />
+</div>
 
 First, you need to complete the JetsonNano environment setup (you can also use our official image directly). This guide references [this post](https://blog.csdn.net/qq_41451125/article/details/116262611).
 
