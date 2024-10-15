@@ -1,0 +1,723 @@
+2024-10-07 18:03:04,512 INFO  Logger.cs: 70 - 
+--------------------------------------------------------------------------------
+2024-10-07 18:03:04,622 INFO  Logger.cs: 71 - Logging commencing for SW2URDF exporter
+2024-10-07 18:03:04,627 INFO  Logger.cs: 73 - Commit version 1.6.0-1-g15f4949
+2024-10-07 18:03:04,628 INFO  Logger.cs: 74 - Build version 1.6.7594.29634
+2024-10-07 18:03:04,629 INFO  SwAddin.cs: 192 - Attempting to connect to SW
+2024-10-07 18:03:04,630 INFO  SwAddin.cs: 197 - Setting up callbacks
+2024-10-07 18:03:04,630 INFO  SwAddin.cs: 201 - Setting up command manager
+2024-10-07 18:03:04,631 INFO  SwAddin.cs: 204 - Adding command manager
+2024-10-07 18:03:04,635 INFO  SwAddin.cs: 263 - Adding Assembly export to file menu
+2024-10-07 18:03:04,636 INFO  SwAddin.cs: 272 - Adding Part export to file menu
+2024-10-07 18:03:04,637 INFO  SwAddin.cs: 210 - Adding event handlers
+2024-10-07 18:03:04,985 INFO  SwAddin.cs: 217 - Connecting plugin to SolidWorks
+2024-10-07 18:48:50,978 INFO  SwAddin.cs: 294 - Assembly export called for file tinker_urdf.SLDASM
+2024-10-07 18:48:50,979 INFO  SwAddin.cs: 299 - Save is required
+2024-10-07 18:48:50,979 INFO  SwAddin.cs: 313 - Saving assembly
+2024-10-07 18:48:54,573 INFO  SwAddin.cs: 316 - Opening property manager
+2024-10-07 18:48:54,587 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from tinker_urdf.SLDASM
+2024-10-07 18:48:54,637 INFO  ExportHelperExtension.cs: 1136 - Found 225 in tinker_urdf.SLDASM
+2024-10-07 18:48:54,638 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in tinker_urdf.SLDASM
+2024-10-07 18:48:54,639 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2024-10-07 18:48:54,641 INFO  ExportHelperExtension.cs: 1160 - 54 components to check
+2024-10-07 18:48:54,642 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 脖子-1
+2024-10-07 18:48:54,643 INFO  ExportHelperExtension.cs: 1136 - Found 51 in 脖子-1
+2024-10-07 18:48:54,644 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 脖子-1
+2024-10-07 18:48:54,644 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体1-1
+2024-10-07 18:48:54,644 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体1-1
+2024-10-07 18:48:54,645 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体1-1
+2024-10-07 18:48:54,645 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体2-1
+2024-10-07 18:48:54,646 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体2-1
+2024-10-07 18:48:54,647 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体2-1
+2024-10-07 18:48:54,647 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿侧展-2
+2024-10-07 18:48:54,648 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-2
+2024-10-07 18:48:54,648 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿侧展-2
+2024-10-07 18:48:54,649 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from thigh-1
+2024-10-07 18:48:54,649 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh-1
+2024-10-07 18:48:54,650 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in thigh-1
+2024-10-07 18:48:54,650 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from hip-1
+2024-10-07 18:48:54,650 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-1
+2024-10-07 18:48:54,651 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in hip-1
+2024-10-07 18:48:54,651 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿侧展-1
+2024-10-07 18:48:54,652 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-1
+2024-10-07 18:48:54,652 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿侧展-1
+2024-10-07 18:48:54,652 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架1-1
+2024-10-07 18:48:54,653 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-1
+2024-10-07 18:48:54,653 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架1-1
+2024-10-07 18:48:54,654 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-2
+2024-10-07 18:48:54,654 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-2
+2024-10-07 18:48:54,655 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-2
+2024-10-07 18:48:54,655 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿-1
+2024-10-07 18:48:54,656 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-1
+2024-10-07 18:48:54,656 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿-1
+2024-10-07 18:48:54,656 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-1
+2024-10-07 18:48:54,657 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-1
+2024-10-07 18:48:54,657 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-1
+2024-10-07 18:48:54,658 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿-1
+2024-10-07 18:48:54,658 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 大腿-1
+2024-10-07 18:48:54,659 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿-1
+2024-10-07 18:48:54,659 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-3
+2024-10-07 18:48:54,659 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-3
+2024-10-07 18:48:54,660 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-3
+2024-10-07 18:48:54,660 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿结构-1
+2024-10-07 18:48:54,661 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-1
+2024-10-07 18:48:54,662 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿结构-1
+2024-10-07 18:48:54,662 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架1-2
+2024-10-07 18:48:54,663 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-2
+2024-10-07 18:48:54,665 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架1-2
+2024-10-07 18:48:54,665 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 主控Odroid-1
+2024-10-07 18:48:54,666 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 主控Odroid-1
+2024-10-07 18:48:54,666 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 主控Odroid-1
+2024-10-07 18:48:54,667 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-4
+2024-10-07 18:48:54,668 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:48:54,669 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:48:54,670 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-3
+2024-10-07 18:48:54,670 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:48:54,671 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:48:54,671 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from hip-2
+2024-10-07 18:48:54,671 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-2
+2024-10-07 18:48:54,672 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in hip-2
+2024-10-07 18:48:54,672 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架2-1
+2024-10-07 18:48:54,673 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-1
+2024-10-07 18:48:54,673 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架2-1
+2024-10-07 18:48:54,674 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架2-2
+2024-10-07 18:48:54,674 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-2
+2024-10-07 18:48:54,675 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架2-2
+2024-10-07 18:48:54,675 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 足端-1
+2024-10-07 18:48:54,676 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 足端-1
+2024-10-07 18:48:54,676 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 足端-1
+2024-10-07 18:48:54,677 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿结构-1
+2024-10-07 18:48:54,678 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-1
+2024-10-07 18:48:54,679 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿结构-1
+2024-10-07 18:48:54,679 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-1
+2024-10-07 18:48:54,680 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:48:54,680 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:48:54,680 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-4
+2024-10-07 18:48:54,681 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-4
+2024-10-07 18:48:54,681 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-4
+2024-10-07 18:48:54,682 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from thigh2-1
+2024-10-07 18:48:54,682 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh2-1
+2024-10-07 18:48:54,683 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in thigh2-1
+2024-10-07 18:48:54,683 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿2-1
+2024-10-07 18:48:54,684 INFO  ExportHelperExtension.cs: 1136 - Found 42 in 大腿2-1
+2024-10-07 18:48:54,684 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿2-1
+2024-10-07 18:48:54,684 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿结构-2
+2024-10-07 18:48:54,685 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-2
+2024-10-07 18:48:54,685 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿结构-2
+2024-10-07 18:48:54,685 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿-2
+2024-10-07 18:48:54,686 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-2
+2024-10-07 18:48:54,686 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿-2
+2024-10-07 18:48:54,686 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿结构-2
+2024-10-07 18:48:54,687 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-2
+2024-10-07 18:48:54,687 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿结构-2
+2024-10-07 18:48:54,687 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-5
+2024-10-07 18:48:54,688 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-5
+2024-10-07 18:48:54,688 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-5
+2024-10-07 18:48:54,688 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 踝关节碳板-1
+2024-10-07 18:48:54,688 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-1
+2024-10-07 18:48:54,689 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 踝关节碳板-1
+2024-10-07 18:48:54,689 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 踝关节碳板-2
+2024-10-07 18:48:54,689 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-2
+2024-10-07 18:48:54,690 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 踝关节碳板-2
+2024-10-07 18:48:54,690 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-6
+2024-10-07 18:48:54,690 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-6
+2024-10-07 18:48:54,691 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-6
+2024-10-07 18:48:54,691 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-5
+2024-10-07 18:48:54,691 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:48:54,692 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:48:54,692 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 足端2-1
+2024-10-07 18:48:54,692 INFO  ExportHelperExtension.cs: 1136 - Found 53 in 足端2-1
+2024-10-07 18:48:54,693 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 足端2-1
+2024-10-07 18:48:54,693 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 路由器-1
+2024-10-07 18:48:54,694 INFO  ExportHelperExtension.cs: 1136 - Found 29 in 路由器-1
+2024-10-07 18:48:54,694 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 路由器-1
+2024-10-07 18:48:54,694 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 电池-2
+2024-10-07 18:48:54,695 INFO  ExportHelperExtension.cs: 1136 - Found 28 in 电池-2
+2024-10-07 18:48:54,695 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 电池-2
+2024-10-07 18:48:54,695 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 电池支架-1
+2024-10-07 18:48:54,696 INFO  ExportHelperExtension.cs: 1136 - Found 59 in 电池支架-1
+2024-10-07 18:48:54,696 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 电池支架-1
+2024-10-07 18:48:54,696 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from IMU-1
+2024-10-07 18:48:54,697 INFO  ExportHelperExtension.cs: 1136 - Found 31 in IMU-1
+2024-10-07 18:48:54,697 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in IMU-1
+2024-10-07 18:48:54,697 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-3
+2024-10-07 18:48:54,698 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-3
+2024-10-07 18:48:54,698 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-3
+2024-10-07 18:48:54,698 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from IMU支撑-1
+2024-10-07 18:48:54,698 INFO  ExportHelperExtension.cs: 1136 - Found 27 in IMU支撑-1
+2024-10-07 18:48:54,699 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in IMU支撑-1
+2024-10-07 18:48:54,699 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 侧转限位-1
+2024-10-07 18:48:54,699 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 侧转限位-1
+2024-10-07 18:48:54,700 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 侧转限位-1
+2024-10-07 18:48:54,700 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 底部支撑-1
+2024-10-07 18:48:54,700 INFO  ExportHelperExtension.cs: 1136 - Found 38 in 底部支撑-1
+2024-10-07 18:48:54,701 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 底部支撑-1
+2024-10-07 18:48:54,701 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 空气开关-1
+2024-10-07 18:48:54,701 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 空气开关-1
+2024-10-07 18:48:54,702 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 空气开关-1
+2024-10-07 18:48:54,702 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 人形控制载版.stp-1
+2024-10-07 18:48:54,703 INFO  ExportHelperExtension.cs: 1136 - Found 80 in 人形控制载版.stp-1
+2024-10-07 18:48:54,703 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 人形控制载版.stp-1
+2024-10-07 18:48:54,703 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-1
+2024-10-07 18:48:54,704 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-1
+2024-10-07 18:48:54,704 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-1
+2024-10-07 18:48:54,704 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-2
+2024-10-07 18:48:54,863 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-2
+2024-10-07 18:48:54,864 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-2
+2024-10-07 18:48:54,864 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-4
+2024-10-07 18:48:54,865 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-4
+2024-10-07 18:48:54,866 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-4
+2024-10-07 18:48:54,866 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 质心-1
+2024-10-07 18:48:54,866 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 质心-1
+2024-10-07 18:48:54,867 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 质心-1
+2024-10-07 18:48:54,867 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 载板PCB-1
+2024-10-07 18:48:54,867 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 载板PCB-1
+2024-10-07 18:48:54,868 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 载板PCB-1
+2024-10-07 18:48:54,868 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 主控支撑-1
+2024-10-07 18:48:54,868 INFO  ExportHelperExtension.cs: 1136 - Found 44 in 主控支撑-1
+2024-10-07 18:48:54,869 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 主控支撑-1
+2024-10-07 18:48:54,869 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 人形分电-1
+2024-10-07 18:48:54,869 INFO  ExportHelperExtension.cs: 1136 - Found 24 in 人形分电-1
+2024-10-07 18:48:54,870 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 人形分电-1
+2024-10-07 18:48:54,870 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 底部支撑 -DC -1
+2024-10-07 18:48:54,870 INFO  ExportHelperExtension.cs: 1136 - Found 41 in 底部支撑 -DC -1
+2024-10-07 18:48:54,871 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 底部支撑 -DC -1
+2024-10-07 18:48:54,871 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from tinker_urdf.SLDASM
+2024-10-07 18:48:54,872 INFO  ExportHelperExtension.cs: 1136 - Found 225 in tinker_urdf.SLDASM
+2024-10-07 18:48:54,872 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in tinker_urdf.SLDASM
+2024-10-07 18:48:54,873 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2024-10-07 18:48:54,873 INFO  ExportHelperExtension.cs: 1160 - 54 components to check
+2024-10-07 18:48:54,874 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 脖子-1
+2024-10-07 18:48:54,874 INFO  ExportHelperExtension.cs: 1136 - Found 51 in 脖子-1
+2024-10-07 18:48:54,874 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 脖子-1
+2024-10-07 18:48:54,875 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体1-1
+2024-10-07 18:48:54,875 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体1-1
+2024-10-07 18:48:54,875 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体1-1
+2024-10-07 18:48:54,876 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体2-1
+2024-10-07 18:48:54,876 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体2-1
+2024-10-07 18:48:54,876 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体2-1
+2024-10-07 18:48:54,877 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿侧展-2
+2024-10-07 18:48:54,877 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-2
+2024-10-07 18:48:54,877 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿侧展-2
+2024-10-07 18:48:54,878 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from thigh-1
+2024-10-07 18:48:54,878 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh-1
+2024-10-07 18:48:54,878 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in thigh-1
+2024-10-07 18:48:54,879 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from hip-1
+2024-10-07 18:48:54,879 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-1
+2024-10-07 18:48:54,879 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in hip-1
+2024-10-07 18:48:54,880 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿侧展-1
+2024-10-07 18:48:54,880 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-1
+2024-10-07 18:48:54,880 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿侧展-1
+2024-10-07 18:48:54,880 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架1-1
+2024-10-07 18:48:54,881 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-1
+2024-10-07 18:48:54,881 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架1-1
+2024-10-07 18:48:54,881 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-2
+2024-10-07 18:48:54,882 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-2
+2024-10-07 18:48:54,882 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-2
+2024-10-07 18:48:54,883 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿-1
+2024-10-07 18:48:54,883 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-1
+2024-10-07 18:48:54,883 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿-1
+2024-10-07 18:48:54,884 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-1
+2024-10-07 18:48:54,884 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-1
+2024-10-07 18:48:54,884 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-1
+2024-10-07 18:48:54,885 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿-1
+2024-10-07 18:48:54,885 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 大腿-1
+2024-10-07 18:48:54,885 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿-1
+2024-10-07 18:48:54,886 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-3
+2024-10-07 18:48:54,886 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-3
+2024-10-07 18:48:54,886 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-3
+2024-10-07 18:48:54,886 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿结构-1
+2024-10-07 18:48:54,887 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-1
+2024-10-07 18:48:54,887 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿结构-1
+2024-10-07 18:48:54,887 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架1-2
+2024-10-07 18:48:54,888 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-2
+2024-10-07 18:48:54,888 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架1-2
+2024-10-07 18:48:54,888 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 主控Odroid-1
+2024-10-07 18:48:54,889 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 主控Odroid-1
+2024-10-07 18:48:54,889 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 主控Odroid-1
+2024-10-07 18:48:54,889 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-4
+2024-10-07 18:48:54,890 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:48:54,890 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:48:54,890 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-3
+2024-10-07 18:48:54,891 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:48:54,891 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:48:54,891 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from hip-2
+2024-10-07 18:48:54,892 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-2
+2024-10-07 18:48:54,892 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in hip-2
+2024-10-07 18:48:54,893 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架2-1
+2024-10-07 18:48:54,893 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-1
+2024-10-07 18:48:54,893 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架2-1
+2024-10-07 18:48:54,894 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架2-2
+2024-10-07 18:48:54,894 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-2
+2024-10-07 18:48:54,894 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架2-2
+2024-10-07 18:48:54,895 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 足端-1
+2024-10-07 18:48:54,895 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 足端-1
+2024-10-07 18:48:54,895 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 足端-1
+2024-10-07 18:48:54,896 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿结构-1
+2024-10-07 18:48:54,896 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-1
+2024-10-07 18:48:54,896 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿结构-1
+2024-10-07 18:48:54,897 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-1
+2024-10-07 18:48:54,897 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:48:54,897 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:48:54,898 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-4
+2024-10-07 18:48:54,898 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-4
+2024-10-07 18:48:54,898 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-4
+2024-10-07 18:48:54,899 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from thigh2-1
+2024-10-07 18:48:54,899 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh2-1
+2024-10-07 18:48:54,899 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in thigh2-1
+2024-10-07 18:48:54,900 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿2-1
+2024-10-07 18:48:54,900 INFO  ExportHelperExtension.cs: 1136 - Found 42 in 大腿2-1
+2024-10-07 18:48:54,900 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿2-1
+2024-10-07 18:48:54,901 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿结构-2
+2024-10-07 18:48:54,901 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-2
+2024-10-07 18:48:54,901 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿结构-2
+2024-10-07 18:48:54,902 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿-2
+2024-10-07 18:48:54,902 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-2
+2024-10-07 18:48:54,902 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿-2
+2024-10-07 18:48:54,902 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿结构-2
+2024-10-07 18:48:54,903 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-2
+2024-10-07 18:48:54,903 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿结构-2
+2024-10-07 18:48:54,903 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-5
+2024-10-07 18:48:54,904 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-5
+2024-10-07 18:48:54,904 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-5
+2024-10-07 18:48:54,904 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 踝关节碳板-1
+2024-10-07 18:48:54,905 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-1
+2024-10-07 18:48:54,905 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 踝关节碳板-1
+2024-10-07 18:48:54,905 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 踝关节碳板-2
+2024-10-07 18:48:54,906 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-2
+2024-10-07 18:48:54,906 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 踝关节碳板-2
+2024-10-07 18:48:54,906 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-6
+2024-10-07 18:48:54,907 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-6
+2024-10-07 18:48:54,907 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-6
+2024-10-07 18:48:54,907 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-5
+2024-10-07 18:48:54,907 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:48:54,908 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:48:54,908 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 足端2-1
+2024-10-07 18:48:54,908 INFO  ExportHelperExtension.cs: 1136 - Found 53 in 足端2-1
+2024-10-07 18:48:54,909 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 足端2-1
+2024-10-07 18:48:54,909 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 路由器-1
+2024-10-07 18:48:54,910 INFO  ExportHelperExtension.cs: 1136 - Found 29 in 路由器-1
+2024-10-07 18:48:54,910 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 路由器-1
+2024-10-07 18:48:54,910 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 电池-2
+2024-10-07 18:48:54,911 INFO  ExportHelperExtension.cs: 1136 - Found 28 in 电池-2
+2024-10-07 18:48:54,911 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 电池-2
+2024-10-07 18:48:54,911 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 电池支架-1
+2024-10-07 18:48:54,912 INFO  ExportHelperExtension.cs: 1136 - Found 59 in 电池支架-1
+2024-10-07 18:48:54,912 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 电池支架-1
+2024-10-07 18:48:54,912 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from IMU-1
+2024-10-07 18:48:54,913 INFO  ExportHelperExtension.cs: 1136 - Found 31 in IMU-1
+2024-10-07 18:48:54,913 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in IMU-1
+2024-10-07 18:48:54,913 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-3
+2024-10-07 18:48:54,914 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-3
+2024-10-07 18:48:54,914 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-3
+2024-10-07 18:48:54,914 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from IMU支撑-1
+2024-10-07 18:48:54,915 INFO  ExportHelperExtension.cs: 1136 - Found 27 in IMU支撑-1
+2024-10-07 18:48:54,915 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in IMU支撑-1
+2024-10-07 18:48:54,915 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 侧转限位-1
+2024-10-07 18:48:54,916 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 侧转限位-1
+2024-10-07 18:48:54,916 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 侧转限位-1
+2024-10-07 18:48:54,916 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 底部支撑-1
+2024-10-07 18:48:54,917 INFO  ExportHelperExtension.cs: 1136 - Found 38 in 底部支撑-1
+2024-10-07 18:48:54,917 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 底部支撑-1
+2024-10-07 18:48:54,917 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 空气开关-1
+2024-10-07 18:48:54,918 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 空气开关-1
+2024-10-07 18:48:54,921 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 空气开关-1
+2024-10-07 18:48:54,921 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 人形控制载版.stp-1
+2024-10-07 18:48:54,928 INFO  ExportHelperExtension.cs: 1136 - Found 80 in 人形控制载版.stp-1
+2024-10-07 18:48:54,929 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 人形控制载版.stp-1
+2024-10-07 18:48:54,929 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-1
+2024-10-07 18:48:54,930 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-1
+2024-10-07 18:48:54,930 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-1
+2024-10-07 18:48:54,930 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-2
+2024-10-07 18:48:54,930 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-2
+2024-10-07 18:48:54,931 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-2
+2024-10-07 18:48:54,931 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-4
+2024-10-07 18:48:54,931 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-4
+2024-10-07 18:48:54,932 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-4
+2024-10-07 18:48:54,932 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 质心-1
+2024-10-07 18:48:54,932 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 质心-1
+2024-10-07 18:48:54,932 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 质心-1
+2024-10-07 18:48:54,933 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 载板PCB-1
+2024-10-07 18:48:54,933 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 载板PCB-1
+2024-10-07 18:48:54,934 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 载板PCB-1
+2024-10-07 18:48:54,934 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 主控支撑-1
+2024-10-07 18:48:54,934 INFO  ExportHelperExtension.cs: 1136 - Found 44 in 主控支撑-1
+2024-10-07 18:48:54,935 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 主控支撑-1
+2024-10-07 18:48:54,935 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 人形分电-1
+2024-10-07 18:48:54,935 INFO  ExportHelperExtension.cs: 1136 - Found 24 in 人形分电-1
+2024-10-07 18:48:54,935 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 人形分电-1
+2024-10-07 18:48:54,936 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 底部支撑 -DC -1
+2024-10-07 18:48:54,936 INFO  ExportHelperExtension.cs: 1136 - Found 41 in 底部支撑 -DC -1
+2024-10-07 18:48:54,936 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 底部支撑 -DC -1
+2024-10-07 18:48:55,629 INFO  SwAddin.cs: 339 - Loading config tree
+2024-10-07 18:48:55,633 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2024-10-07 18:48:55,638 INFO  SwAddin.cs: 344 - Showing property manager
+2024-10-07 18:50:07,351 INFO  ExportPropertyManager.cs: 422 - Configuration saved
+2024-10-07 18:50:17,271 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from tinker_urdf.SLDASM
+2024-10-07 18:50:17,274 INFO  ExportHelperExtension.cs: 1136 - Found 228 in tinker_urdf.SLDASM
+2024-10-07 18:50:17,274 INFO  ExportHelperExtension.cs: 1145 - Found 1 features of type [CoordSys] in tinker_urdf.SLDASM
+2024-10-07 18:50:17,275 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2024-10-07 18:50:17,275 INFO  ExportHelperExtension.cs: 1160 - 54 components to check
+2024-10-07 18:50:17,276 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 脖子-1
+2024-10-07 18:50:17,276 INFO  ExportHelperExtension.cs: 1136 - Found 51 in 脖子-1
+2024-10-07 18:50:17,276 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 脖子-1
+2024-10-07 18:50:17,277 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体1-1
+2024-10-07 18:50:17,277 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体1-1
+2024-10-07 18:50:17,278 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体1-1
+2024-10-07 18:50:17,278 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体2-1
+2024-10-07 18:50:17,278 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体2-1
+2024-10-07 18:50:17,279 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体2-1
+2024-10-07 18:50:17,279 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿侧展-2
+2024-10-07 18:50:17,279 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-2
+2024-10-07 18:50:17,280 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿侧展-2
+2024-10-07 18:50:17,280 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from thigh-1
+2024-10-07 18:50:17,280 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh-1
+2024-10-07 18:50:17,281 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in thigh-1
+2024-10-07 18:50:17,281 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from hip-1
+2024-10-07 18:50:17,281 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-1
+2024-10-07 18:50:17,282 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in hip-1
+2024-10-07 18:50:17,282 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿侧展-1
+2024-10-07 18:50:17,282 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-1
+2024-10-07 18:50:17,283 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿侧展-1
+2024-10-07 18:50:17,283 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架1-1
+2024-10-07 18:50:17,283 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-1
+2024-10-07 18:50:17,284 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架1-1
+2024-10-07 18:50:17,284 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-2
+2024-10-07 18:50:17,284 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-2
+2024-10-07 18:50:17,285 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-2
+2024-10-07 18:50:17,285 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿-1
+2024-10-07 18:50:17,285 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-1
+2024-10-07 18:50:17,286 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿-1
+2024-10-07 18:50:17,286 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-1
+2024-10-07 18:50:17,286 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-1
+2024-10-07 18:50:17,287 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-1
+2024-10-07 18:50:17,287 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿-1
+2024-10-07 18:50:17,287 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 大腿-1
+2024-10-07 18:50:17,288 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿-1
+2024-10-07 18:50:17,288 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-3
+2024-10-07 18:50:17,288 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-3
+2024-10-07 18:50:17,289 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-3
+2024-10-07 18:50:17,289 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿结构-1
+2024-10-07 18:50:17,289 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-1
+2024-10-07 18:50:17,290 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿结构-1
+2024-10-07 18:50:17,290 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架1-2
+2024-10-07 18:50:17,290 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-2
+2024-10-07 18:50:17,291 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架1-2
+2024-10-07 18:50:17,291 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 主控Odroid-1
+2024-10-07 18:50:17,291 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 主控Odroid-1
+2024-10-07 18:50:17,292 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 主控Odroid-1
+2024-10-07 18:50:17,292 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-4
+2024-10-07 18:50:17,292 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:50:17,293 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:50:17,293 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-3
+2024-10-07 18:50:17,293 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:50:17,294 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:50:17,294 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from hip-2
+2024-10-07 18:50:17,294 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-2
+2024-10-07 18:50:17,295 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in hip-2
+2024-10-07 18:50:17,295 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架2-1
+2024-10-07 18:50:17,295 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-1
+2024-10-07 18:50:17,296 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架2-1
+2024-10-07 18:50:17,296 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 机体支架2-2
+2024-10-07 18:50:17,296 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-2
+2024-10-07 18:50:17,297 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 机体支架2-2
+2024-10-07 18:50:17,297 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 足端-1
+2024-10-07 18:50:17,297 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 足端-1
+2024-10-07 18:50:17,298 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 足端-1
+2024-10-07 18:50:17,298 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿结构-1
+2024-10-07 18:50:17,298 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-1
+2024-10-07 18:50:17,299 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿结构-1
+2024-10-07 18:50:17,299 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-1
+2024-10-07 18:50:17,299 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:50:17,300 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:50:17,300 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-4
+2024-10-07 18:50:17,300 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-4
+2024-10-07 18:50:17,300 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-4
+2024-10-07 18:50:17,301 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from thigh2-1
+2024-10-07 18:50:17,301 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh2-1
+2024-10-07 18:50:17,302 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in thigh2-1
+2024-10-07 18:50:17,302 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿2-1
+2024-10-07 18:50:17,302 INFO  ExportHelperExtension.cs: 1136 - Found 42 in 大腿2-1
+2024-10-07 18:50:17,303 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿2-1
+2024-10-07 18:50:17,303 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 大腿结构-2
+2024-10-07 18:50:17,303 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-2
+2024-10-07 18:50:17,304 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 大腿结构-2
+2024-10-07 18:50:17,304 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿-2
+2024-10-07 18:50:17,304 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-2
+2024-10-07 18:50:17,305 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿-2
+2024-10-07 18:50:17,305 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 小腿结构-2
+2024-10-07 18:50:17,305 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-2
+2024-10-07 18:50:17,306 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 小腿结构-2
+2024-10-07 18:50:17,306 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-5
+2024-10-07 18:50:17,306 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-5
+2024-10-07 18:50:17,307 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-5
+2024-10-07 18:50:17,307 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 踝关节碳板-1
+2024-10-07 18:50:17,307 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-1
+2024-10-07 18:50:17,308 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 踝关节碳板-1
+2024-10-07 18:50:17,308 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 踝关节碳板-2
+2024-10-07 18:50:17,308 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-2
+2024-10-07 18:50:17,309 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 踝关节碳板-2
+2024-10-07 18:50:17,309 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 8108 减速电机-6
+2024-10-07 18:50:17,437 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-6
+2024-10-07 18:50:17,438 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 8108 减速电机-6
+2024-10-07 18:50:17,438 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from DM 6210 3d 20230507.STEP-5
+2024-10-07 18:50:17,438 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:50:17,439 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:50:17,439 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 足端2-1
+2024-10-07 18:50:17,439 INFO  ExportHelperExtension.cs: 1136 - Found 53 in 足端2-1
+2024-10-07 18:50:17,440 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 足端2-1
+2024-10-07 18:50:17,440 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 路由器-1
+2024-10-07 18:50:17,441 INFO  ExportHelperExtension.cs: 1136 - Found 29 in 路由器-1
+2024-10-07 18:50:17,441 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 路由器-1
+2024-10-07 18:50:17,441 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 电池-2
+2024-10-07 18:50:17,442 INFO  ExportHelperExtension.cs: 1136 - Found 28 in 电池-2
+2024-10-07 18:50:17,442 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 电池-2
+2024-10-07 18:50:17,442 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 电池支架-1
+2024-10-07 18:50:17,443 INFO  ExportHelperExtension.cs: 1136 - Found 59 in 电池支架-1
+2024-10-07 18:50:17,443 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 电池支架-1
+2024-10-07 18:50:17,443 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from IMU-1
+2024-10-07 18:50:17,444 INFO  ExportHelperExtension.cs: 1136 - Found 31 in IMU-1
+2024-10-07 18:50:17,444 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in IMU-1
+2024-10-07 18:50:17,444 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-3
+2024-10-07 18:50:17,444 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-3
+2024-10-07 18:50:17,445 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-3
+2024-10-07 18:50:17,445 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from IMU支撑-1
+2024-10-07 18:50:17,446 INFO  ExportHelperExtension.cs: 1136 - Found 27 in IMU支撑-1
+2024-10-07 18:50:17,446 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in IMU支撑-1
+2024-10-07 18:50:17,446 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 侧转限位-1
+2024-10-07 18:50:17,447 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 侧转限位-1
+2024-10-07 18:50:17,447 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 侧转限位-1
+2024-10-07 18:50:17,447 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 底部支撑-1
+2024-10-07 18:50:17,448 INFO  ExportHelperExtension.cs: 1136 - Found 38 in 底部支撑-1
+2024-10-07 18:50:17,448 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 底部支撑-1
+2024-10-07 18:50:17,448 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 空气开关-1
+2024-10-07 18:50:17,449 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 空气开关-1
+2024-10-07 18:50:17,449 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 空气开关-1
+2024-10-07 18:50:17,449 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 人形控制载版.stp-1
+2024-10-07 18:50:17,450 INFO  ExportHelperExtension.cs: 1136 - Found 80 in 人形控制载版.stp-1
+2024-10-07 18:50:17,450 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 人形控制载版.stp-1
+2024-10-07 18:50:17,451 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-1
+2024-10-07 18:50:17,451 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-1
+2024-10-07 18:50:17,451 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-1
+2024-10-07 18:50:17,452 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-2
+2024-10-07 18:50:17,452 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-2
+2024-10-07 18:50:17,452 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-2
+2024-10-07 18:50:17,453 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from M4铝柱-4
+2024-10-07 18:50:17,453 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-4
+2024-10-07 18:50:17,453 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in M4铝柱-4
+2024-10-07 18:50:17,454 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 质心-1
+2024-10-07 18:50:17,454 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 质心-1
+2024-10-07 18:50:17,454 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 质心-1
+2024-10-07 18:50:17,455 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 载板PCB-1
+2024-10-07 18:50:17,455 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 载板PCB-1
+2024-10-07 18:50:17,455 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 载板PCB-1
+2024-10-07 18:50:17,455 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 主控支撑-1
+2024-10-07 18:50:17,456 INFO  ExportHelperExtension.cs: 1136 - Found 44 in 主控支撑-1
+2024-10-07 18:50:17,456 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 主控支撑-1
+2024-10-07 18:50:17,457 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 人形分电-1
+2024-10-07 18:50:17,457 INFO  ExportHelperExtension.cs: 1136 - Found 24 in 人形分电-1
+2024-10-07 18:50:17,457 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 人形分电-1
+2024-10-07 18:50:17,458 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from 底部支撑 -DC -1
+2024-10-07 18:50:17,458 INFO  ExportHelperExtension.cs: 1136 - Found 41 in 底部支撑 -DC -1
+2024-10-07 18:50:17,458 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in 底部支撑 -DC -1
+2024-10-07 18:50:17,459 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from tinker_urdf.SLDASM
+2024-10-07 18:50:17,459 INFO  ExportHelperExtension.cs: 1136 - Found 228 in tinker_urdf.SLDASM
+2024-10-07 18:50:17,460 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in tinker_urdf.SLDASM
+2024-10-07 18:50:17,460 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2024-10-07 18:50:17,460 INFO  ExportHelperExtension.cs: 1160 - 54 components to check
+2024-10-07 18:50:17,461 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 脖子-1
+2024-10-07 18:50:17,461 INFO  ExportHelperExtension.cs: 1136 - Found 51 in 脖子-1
+2024-10-07 18:50:17,462 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 脖子-1
+2024-10-07 18:50:17,462 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体1-1
+2024-10-07 18:50:17,463 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体1-1
+2024-10-07 18:50:17,463 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体1-1
+2024-10-07 18:50:17,463 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体2-1
+2024-10-07 18:50:17,464 INFO  ExportHelperExtension.cs: 1136 - Found 55 in 机体2-1
+2024-10-07 18:50:17,464 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体2-1
+2024-10-07 18:50:17,465 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿侧展-2
+2024-10-07 18:50:17,465 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-2
+2024-10-07 18:50:17,466 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿侧展-2
+2024-10-07 18:50:17,466 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from thigh-1
+2024-10-07 18:50:17,466 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh-1
+2024-10-07 18:50:17,467 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in thigh-1
+2024-10-07 18:50:17,467 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from hip-1
+2024-10-07 18:50:17,468 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-1
+2024-10-07 18:50:17,468 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in hip-1
+2024-10-07 18:50:17,469 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿侧展-1
+2024-10-07 18:50:17,469 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 大腿侧展-1
+2024-10-07 18:50:17,469 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿侧展-1
+2024-10-07 18:50:17,470 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架1-1
+2024-10-07 18:50:17,470 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-1
+2024-10-07 18:50:17,470 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架1-1
+2024-10-07 18:50:17,471 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-2
+2024-10-07 18:50:17,471 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-2
+2024-10-07 18:50:17,472 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-2
+2024-10-07 18:50:17,472 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿-1
+2024-10-07 18:50:17,472 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-1
+2024-10-07 18:50:17,473 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿-1
+2024-10-07 18:50:17,473 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-1
+2024-10-07 18:50:17,473 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-1
+2024-10-07 18:50:17,474 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-1
+2024-10-07 18:50:17,474 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿-1
+2024-10-07 18:50:17,474 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 大腿-1
+2024-10-07 18:50:17,475 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿-1
+2024-10-07 18:50:17,475 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-3
+2024-10-07 18:50:17,475 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-3
+2024-10-07 18:50:17,476 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-3
+2024-10-07 18:50:17,476 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿结构-1
+2024-10-07 18:50:17,476 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-1
+2024-10-07 18:50:17,477 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿结构-1
+2024-10-07 18:50:17,477 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架1-2
+2024-10-07 18:50:17,478 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 机体支架1-2
+2024-10-07 18:50:17,478 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架1-2
+2024-10-07 18:50:17,478 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 主控Odroid-1
+2024-10-07 18:50:17,479 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 主控Odroid-1
+2024-10-07 18:50:17,479 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 主控Odroid-1
+2024-10-07 18:50:17,480 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-4
+2024-10-07 18:50:17,518 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:50:17,520 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-4
+2024-10-07 18:50:17,521 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-3
+2024-10-07 18:50:17,523 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:50:17,524 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-3
+2024-10-07 18:50:17,526 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from hip-2
+2024-10-07 18:50:17,527 INFO  ExportHelperExtension.cs: 1136 - Found 44 in hip-2
+2024-10-07 18:50:17,529 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in hip-2
+2024-10-07 18:50:17,530 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架2-1
+2024-10-07 18:50:17,532 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-1
+2024-10-07 18:50:17,533 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架2-1
+2024-10-07 18:50:17,534 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 机体支架2-2
+2024-10-07 18:50:17,535 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 机体支架2-2
+2024-10-07 18:50:17,536 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 机体支架2-2
+2024-10-07 18:50:17,537 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 足端-1
+2024-10-07 18:50:17,538 INFO  ExportHelperExtension.cs: 1136 - Found 50 in 足端-1
+2024-10-07 18:50:17,539 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 足端-1
+2024-10-07 18:50:17,539 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿结构-1
+2024-10-07 18:50:17,540 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-1
+2024-10-07 18:50:17,541 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿结构-1
+2024-10-07 18:50:17,541 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-1
+2024-10-07 18:50:17,542 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:50:17,543 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-1
+2024-10-07 18:50:17,543 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-4
+2024-10-07 18:50:17,544 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-4
+2024-10-07 18:50:17,545 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-4
+2024-10-07 18:50:17,545 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from thigh2-1
+2024-10-07 18:50:17,546 INFO  ExportHelperExtension.cs: 1136 - Found 53 in thigh2-1
+2024-10-07 18:50:17,547 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in thigh2-1
+2024-10-07 18:50:17,547 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿2-1
+2024-10-07 18:50:17,548 INFO  ExportHelperExtension.cs: 1136 - Found 42 in 大腿2-1
+2024-10-07 18:50:17,548 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿2-1
+2024-10-07 18:50:17,549 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 大腿结构-2
+2024-10-07 18:50:17,549 INFO  ExportHelperExtension.cs: 1136 - Found 46 in 大腿结构-2
+2024-10-07 18:50:17,550 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 大腿结构-2
+2024-10-07 18:50:17,550 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿-2
+2024-10-07 18:50:17,551 INFO  ExportHelperExtension.cs: 1136 - Found 48 in 小腿-2
+2024-10-07 18:50:17,551 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿-2
+2024-10-07 18:50:17,552 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 小腿结构-2
+2024-10-07 18:50:17,552 INFO  ExportHelperExtension.cs: 1136 - Found 36 in 小腿结构-2
+2024-10-07 18:50:17,553 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 小腿结构-2
+2024-10-07 18:50:17,553 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-5
+2024-10-07 18:50:17,554 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-5
+2024-10-07 18:50:17,554 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-5
+2024-10-07 18:50:17,554 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 踝关节碳板-1
+2024-10-07 18:50:17,555 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-1
+2024-10-07 18:50:17,555 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 踝关节碳板-1
+2024-10-07 18:50:17,556 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 踝关节碳板-2
+2024-10-07 18:50:17,556 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 踝关节碳板-2
+2024-10-07 18:50:17,556 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 踝关节碳板-2
+2024-10-07 18:50:17,557 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 8108 减速电机-6
+2024-10-07 18:50:17,557 INFO  ExportHelperExtension.cs: 1136 - Found 27 in DM 8108 减速电机-6
+2024-10-07 18:50:17,557 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 8108 减速电机-6
+2024-10-07 18:50:17,558 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from DM 6210 3d 20230507.STEP-5
+2024-10-07 18:50:17,558 INFO  ExportHelperExtension.cs: 1136 - Found 26 in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:50:17,559 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in DM 6210 3d 20230507.STEP-5
+2024-10-07 18:50:17,559 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 足端2-1
+2024-10-07 18:50:17,559 INFO  ExportHelperExtension.cs: 1136 - Found 53 in 足端2-1
+2024-10-07 18:50:17,560 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 足端2-1
+2024-10-07 18:50:17,560 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 路由器-1
+2024-10-07 18:50:17,560 INFO  ExportHelperExtension.cs: 1136 - Found 29 in 路由器-1
+2024-10-07 18:50:17,561 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 路由器-1
+2024-10-07 18:50:17,561 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 电池-2
+2024-10-07 18:50:17,562 INFO  ExportHelperExtension.cs: 1136 - Found 28 in 电池-2
+2024-10-07 18:50:17,562 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 电池-2
+2024-10-07 18:50:17,562 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 电池支架-1
+2024-10-07 18:50:17,563 INFO  ExportHelperExtension.cs: 1136 - Found 59 in 电池支架-1
+2024-10-07 18:50:17,563 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 电池支架-1
+2024-10-07 18:50:17,563 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from IMU-1
+2024-10-07 18:50:17,564 INFO  ExportHelperExtension.cs: 1136 - Found 31 in IMU-1
+2024-10-07 18:50:17,564 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in IMU-1
+2024-10-07 18:50:17,565 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-3
+2024-10-07 18:50:17,565 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-3
+2024-10-07 18:50:17,565 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-3
+2024-10-07 18:50:17,566 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from IMU支撑-1
+2024-10-07 18:50:17,566 INFO  ExportHelperExtension.cs: 1136 - Found 27 in IMU支撑-1
+2024-10-07 18:50:17,566 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in IMU支撑-1
+2024-10-07 18:50:17,567 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 侧转限位-1
+2024-10-07 18:50:17,567 INFO  ExportHelperExtension.cs: 1136 - Found 30 in 侧转限位-1
+2024-10-07 18:50:17,567 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 侧转限位-1
+2024-10-07 18:50:17,568 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 底部支撑-1
+2024-10-07 18:50:17,568 INFO  ExportHelperExtension.cs: 1136 - Found 38 in 底部支撑-1
+2024-10-07 18:50:17,568 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 底部支撑-1
+2024-10-07 18:50:17,569 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 空气开关-1
+2024-10-07 18:50:17,569 INFO  ExportHelperExtension.cs: 1136 - Found 39 in 空气开关-1
+2024-10-07 18:50:17,569 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 空气开关-1
+2024-10-07 18:50:17,570 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 人形控制载版.stp-1
+2024-10-07 18:50:17,570 INFO  ExportHelperExtension.cs: 1136 - Found 80 in 人形控制载版.stp-1
+2024-10-07 18:50:17,571 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 人形控制载版.stp-1
+2024-10-07 18:50:17,571 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-1
+2024-10-07 18:50:17,571 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-1
+2024-10-07 18:50:17,572 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-1
+2024-10-07 18:50:17,572 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-2
+2024-10-07 18:50:17,572 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-2
+2024-10-07 18:50:17,573 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-2
+2024-10-07 18:50:17,573 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from M4铝柱-4
+2024-10-07 18:50:17,573 INFO  ExportHelperExtension.cs: 1136 - Found 27 in M4铝柱-4
+2024-10-07 18:50:17,573 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in M4铝柱-4
+2024-10-07 18:50:17,574 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 质心-1
+2024-10-07 18:50:17,574 INFO  ExportHelperExtension.cs: 1136 - Found 27 in 质心-1
+2024-10-07 18:50:17,574 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 质心-1
+2024-10-07 18:50:17,575 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 载板PCB-1
+2024-10-07 18:50:17,575 INFO  ExportHelperExtension.cs: 1136 - Found 32 in 载板PCB-1
+2024-10-07 18:50:17,576 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 载板PCB-1
+2024-10-07 18:50:17,576 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 主控支撑-1
+2024-10-07 18:50:17,576 INFO  ExportHelperExtension.cs: 1136 - Found 44 in 主控支撑-1
+2024-10-07 18:50:17,577 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 主控支撑-1
+2024-10-07 18:50:17,577 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 人形分电-1
+2024-10-07 18:50:17,577 INFO  ExportHelperExtension.cs: 1136 - Found 24 in 人形分电-1
+2024-10-07 18:50:17,578 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 人形分电-1
+2024-10-07 18:50:17,578 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from 底部支撑 -DC -1
+2024-10-07 18:50:17,578 INFO  ExportHelperExtension.cs: 1136 - Found 41 in 底部支撑 -DC -1
+2024-10-07 18:50:17,579 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in 底部支撑 -DC -1
+2024-10-07 18:50:17,677 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2024-10-07 18:50:19,848 INFO  AssemblyExportForm.cs: 253 - Completing URDF export
+2024-10-07 18:50:19,853 INFO  ConfigurationSerialization.cs: 276 - URDF Configuration found
+<Link z:Id="i1" xmlns="http://schemas.datacontract.org/2004/07/SW2URDF" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><Attributes><Attribute z:Id="i2"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">base_link</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i3" i:type="Inertial"><Attributes/><ChildElements><URDFElement z:Id="i4" i:type="Origin"><Attributes><Attribute z:Id="i5"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i6"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i6"/><XYZAttribute z:Ref="i5"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i7" i:type="Mass"><Attributes><Attribute z:Id="i8"><AttributeType>value</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>mass</ElementName><required>false</required><ValueAttribute z:Ref="i8"/></URDFElement><URDFElement z:Id="i9" i:type="Inertia"><Attributes><Attribute z:Id="i10"><AttributeType>ixx</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i11"><AttributeType>ixy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i12"><AttributeType>ixz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i13"><AttributeType>iyy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i14"><AttributeType>iyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i15"><AttributeType>izz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>inertia</ElementName><required>false</required><IxxAttribute z:Ref="i10"/><IxyAttribute z:Ref="i11"/><IxzAttribute z:Ref="i12"/><IyyAttribute z:Ref="i13"/><IyzAttribute z:Ref="i14"/><IzzAttribute z:Ref="i15"/></URDFElement></ChildElements><ElementName>inertial</ElementName><required>false</required><Inertia z:Ref="i9"/><Mass z:Ref="i7"/><Origin z:Ref="i4"/></URDFElement><URDFElement z:Id="i16" i:type="Visual"><Attributes/><ChildElements><URDFElement z:Id="i17" i:type="Origin"><Attributes><Attribute z:Id="i18"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i19"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i19"/><XYZAttribute z:Ref="i18"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i20" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i21" i:type="Mesh"><Attributes><Attribute z:Id="i22"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i22"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i21"/></URDFElement><URDFElement z:Id="i23" i:type="Material"><Attributes><Attribute z:Id="i24"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i25" i:type="Color"><Attributes><Attribute z:Id="i26"><AttributeType>rgba</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>color</ElementName><required>false</required><RGBAAttribute z:Ref="i26"/></URDFElement><URDFElement z:Id="i27" i:type="Texture"><Attributes><Attribute z:Id="i28"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>texture</ElementName><required>false</required><FilenameAttribute z:Ref="i28"/><wFilename/></URDFElement></ChildElements><ElementName>material</ElementName><required>false</required><Color z:Ref="i25"/><NameAttribute z:Ref="i24"/><Texture z:Ref="i27"/></URDFElement></ChildElements><ElementName>visual</ElementName><required>false</required><Geometry z:Ref="i20"/><Material z:Ref="i23"/><Origin z:Ref="i17"/></URDFElement><URDFElement z:Id="i29" i:type="Collision"><Attributes/><ChildElements><URDFElement z:Id="i30" i:type="Origin"><Attributes><Attribute z:Id="i31"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i32"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i32"/><XYZAttribute z:Ref="i31"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i33" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i34" i:type="Mesh"><Attributes><Attribute z:Id="i35"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i35"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i34"/></URDFElement></ChildElements><ElementName>collision</ElementName><required>false</required><Geometry z:Ref="i33"/><Origin z:Ref="i30"/></URDFElement><URDFElement z:Id="i36" i:type="Joint"><Attributes><Attribute z:Id="i37"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute><Attribute z:Id="i38"><AttributeType>type</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i39" i:type="Origin"><Attributes><Attribute z:Id="i40"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i41"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i41"/><XYZAttribute z:Ref="i40"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i42" i:type="ParentLink"><Attributes><Attribute z:Id="i43"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>parent</ElementName><required>true</required><NameAttribute z:Ref="i43"/></URDFElement><URDFElement z:Id="i44" i:type="ChildLink"><Attributes><Attribute z:Id="i45"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>child</ElementName><required>true</required><NameAttribute z:Ref="i45"/></URDFElement><URDFElement z:Id="i46" i:type="Axis"><Attributes><Attribute z:Id="i47"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>axis</ElementName><required>false</required><XYZAttribute z:Ref="i47"/></URDFElement><URDFElement z:Id="i48" i:type="Limit"><Attributes><Attribute z:Id="i49"><AttributeType>lower</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i50"><AttributeType>upper</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i51"><AttributeType>effort</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i52"><AttributeType>velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>limit</ElementName><required>false</required><EffortAttribute z:Ref="i51"/><LowerAttribute z:Ref="i49"/><UpperAttribute z:Ref="i50"/><VelocityAttribute z:Ref="i52"/></URDFElement><URDFElement z:Id="i53" i:type="Calibration"><Attributes><Attribute z:Id="i54"><AttributeType>rising</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i55"><AttributeType>falling</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>calibration</ElementName><required>false</required><FallingAttribute z:Ref="i55"/><RisingAttribute z:Ref="i54"/></URDFElement><URDFElement z:Id="i56" i:type="Dynamics"><Attributes><Attribute z:Id="i57"><AttributeType>damping</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i58"><AttributeType>friction</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>dynamics</ElementName><required>false</required><DampingAttribute z:Ref="i57"/><FrictionAttribute z:Ref="i58"/></URDFElement><URDFElement z:Id="i59" i:type="SafetyController"><Attributes><Attribute z:Id="i60"><AttributeType>soft_upper</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i61"><AttributeType>soft_lower</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i62"><AttributeType>k_position</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i63"><AttributeType>k_velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>safety_controller</ElementName><required>false</required><KPositionAttribute z:Ref="i62"/><KVelocityAttribute z:Ref="i63"/><SoftLowerAttribute z:Ref="i61"/><SoftUpperAttribute z:Ref="i60"/></URDFElement><URDFElement z:Id="i64" i:type="Mimic"><Attributes><Attribute z:Id="i65"><AttributeType>joint</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i66"><AttributeType>multiplier</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i67"><AttributeType>offset</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mimic</ElementName><required>false</required><JointNameAttribute z:Ref="i65"/><MultiplierAttribute z:Ref="i66"/><OffsetAttribute z:Ref="i67"/></URDFElement></ChildElements><ElementName>joint</ElementName><required>false</required><Axis z:Ref="i46"/><AxisName/><Calibration z:Ref="i53"/><Child z:Ref="i44"/><CoordinateSystemName>Automatically Generate</CoordinateSystemName><Dynamics z:Ref="i56"/><Limit z:Ref="i48"/><Mimic z:Ref="i64"/><NameAttribute z:Ref="i37"/><Origin z:Ref="i39"/><Parent z:Ref="i42"/><Safety z:Ref="i59"/><TypeAttribute z:Ref="i38"/></URDFElement></ChildElements><ElementName>link</ElementName><required>true</required><Children/><Collision z:Ref="i29"/><Inertial z:Ref="i3"/><Joint z:Ref="i36"/><NameAttribute z:Ref="i2"/><Parent i:nil="true"/><STLQualityFine>false</STLQualityFine><SWComponentPIDs xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:base64Binary>yDIAAAUAAAD//v8SO06nYy9lkWQtADEAQAB0AGkAbgBrAGUAcgBfAHUAcgBkAGYABAAAABAAAAABAAAAAQAAAP8AAAA=</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TOmdTTy9ltmcxAC0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAEAAAAEAAAAAEAAAABAAAAhAAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v9RRABNACAANgAyADEAMAAgADMAZAAgADIAMAAyADMAMAA1ADAANwAuAFMAVABFAFAALQAxAEAAdABpAG4AawBlAHIAXwB1AHIAZABmAC8ARABNACAANgAyADEAMAAgADMARAAuAFMAVABFAFAALQAxAEAARABNACAANgAyADEAMAAgADMAZAAgADIAMAAyADMAMAA1ADAANwAuAFMAVABFAFAABAAAABAAAAABAAAAAgAAABkAAAARAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TOmdTTy9ltmcyAC0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAEAAAAEAAAAAEAAAABAAAAogAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v9cRABNACAANgAyADEAMAAgADMAZAAgADIAMAAyADMAMAA1ADAANwAuAFMAVABFAFAALQAxAEAAdABpAG4AawBlAHIAXwB1AHIAZABmAC8ANgAyADEAMAAgAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8ALgBTAFQARQBQAC0AMQBAAEQATQAgADYAMgAxADAAIAAzAGQAIAAyADAAMgAzADAANQAwADcALgBTAFQARQBQAAQAAAAQAAAAAQAAAAIAAAAZAAAAEgAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8SNXVgbC9ltmctADEAQAB0AGkAbgBrAGUAcgBfAHUAcgBkAGYABAAAABAAAAABAAAAAQAAABEBAAA=</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v9RRABNACAANgAyADEAMAAgADMAZAAgADIAMAAyADMAMAA1ADAANwAuAFMAVABFAFAALQA0AEAAdABpAG4AawBlAHIAXwB1AHIAZABmAC8ARABNACAANgAyADEAMAAgADMARAAuAFMAVABFAFAALQAxAEAARABNACAANgAyADEAMAAgADMAZAAgADIAMAAyADMAMAA1ADAANwAuAFMAVABFAFAABAAAABAAAAABAAAAAgAAAJMAAAARAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v9cRABNACAANgAyADEAMAAgADMAZAAgADIAMAAyADMAMAA1ADAANwAuAFMAVABFAFAALQA0AEAAdABpAG4AawBlAHIAXwB1AHIAZABmAC8ANgAyADEAMAAgAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8ALgBTAFQARQBQAC0AMQBAAEQATQAgADYAMgAxADAAIAAzAGQAIAAyADAAMgAzADAANQAwADcALgBTAFQARQBQAAQAAAAQAAAAAQAAAAIAAACTAAAAEgAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TSQBNAFUAL2WRZC0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAEAAAAEAAAAAEAAAABAAAAYAEAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8ROmdTTzEALQAxAEAAdABpAG4AawBlAHIAXwB1AHIAZABmAAQAAAAQAAAAAQAAAAEAAAB6AAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TOmdTTy9ltmcxAC0AMgBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAEAAAAEAAAAAEAAAABAAAAkAAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8RSQBNAFUALQAxAEAAdABpAG4AawBlAHIAXwB1AHIAZABmAAQAAAAQAAAAAQAAAAEAAAAlAQAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8aFoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvADWCOmeVXqdeLQAxAEAAFoFQWwQAAAAQAAAAAQAAAAIAAACQAQAAGQAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8aFoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvABaBUFsvZZFkLQAxAEAAFoFQWwQAAAAQAAAAAQAAAAIAAACQAQAAHQAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAxAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBaAEgATwBOAEcASwBFAF8AMgAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAAGgAAABkAAAARAAAAEwAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAxAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBIAE8AVQBHAEEASQBfADEAMAAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAAGgAAABkAAAARAAAAFAAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/1FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAxAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBGAFUAWgBIAFUAMAAxAF8AMwAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAAGgAAABkAAAARAAAAGgAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/5FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAxAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBEAFUATwBQAEEATgAtAFMARwBfADEAXwA0AC4AcwB0AHAALQAxAEAAUwBDAFMANAAwAEsARwBTAEUAUgBWAE8AXwBBAFMATQBfADEAMgBfAEEAUwBNAC4AcwB0AHAABAAAABAAAAABAAAABQAAAJABAAAaAAAAGQAAABEAAAAbAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAzAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBaAEgATwBOAEcASwBFAF8AMgAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAANgAAABkAAAARAAAAEwAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAzAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBIAE8AVQBHAEEASQBfADEAMAAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAANgAAABkAAAARAAAAFAAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8aFoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvADRZ6JAqghFULQAxAEAAFoFQWwQAAAAQAAAAAQAAAAIAAACQAQAAMgAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAyAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBIAE8AVQBHAEEASQBfADEAMAAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAAIgAAABkAAAARAAAAFAAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/5FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAyAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBEAFUATwBQAEEATgAtAFMARwBfADEAXwA0AC4AcwB0AHAALQAxAEAAUwBDAFMANAAwAEsARwBTAEUAUgBWAE8AXwBBAFMATQBfADEAMgBfAEEAUwBNAC4AcwB0AHAABAAAABAAAAABAAAABQAAAJABAAAiAAAAGQAAABEAAAAbAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAyAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBaAEgATwBOAEcASwBFAF8AMgAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAAIgAAABkAAAARAAAAEwAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/5FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAzAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBEAFUATwBQAEEATgAtAFMARwBfADEAXwA0AC4AcwB0AHAALQAxAEAAUwBDAFMANAAwAEsARwBTAEUAUgBWAE8AXwBBAFMATQBfADEAMgBfAEEAUwBNAC4AcwB0AHAABAAAABAAAAABAAAABQAAAJABAAA2AAAAGQAAABEAAAAbAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8YFoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvADRZ1nYtADEAQAAWgVBbBAAAABAAAAABAAAAAgAAAJABAABGAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8SenoUbABfc1EtADEAQAB0AGkAbgBrAGUAcgBfAHUAcgBkAGYABAAAABAAAAABAAAAAQAAABkBAAA=</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8QNXVgbC0AMgBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAEAAAAEAAAAAEAAAABAAAABQEAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8XlV7okC9lkWQgAC0ARABDACAALQAxAEAAdABpAG4AawBlAHIAXwB1AHIAZABmAAQAAAAQAAAAAQAAAAEAAACKAQAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8SlV7okC9lkWQtADEAQAB0AGkAbgBrAGUAcgBfAHUAcgBkAGYABAAAABAAAAABAAAAAQAAAGwBAAA=</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8ROmdTTzIALQAxAEAAdABpAG4AawBlAHIAXwB1AHIAZABmAAQAAAAQAAAAAQAAAAEAAACrAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAxAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBRAFUAQQBOAEsATwBVAF8ANAAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAAGgAAABkAAAARAAAAFQAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v/4FoFQWy0AMQBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAvAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALQAyAEAAFoFQWy8AcwBjAHMANAAwAGsAZwBzAGUAcgB2AG8AXwBhAHMAbQBkAG8AdQBiAGwAZQBzAGgAYQB0ADIAMAAxADcAMQAxADAAMgAuAHMAdABwAC0AMQBAAHMAYwBzADQAMABrAGcAcwBlAHIAdgBvAF8AYQBzAG0AZABvAHUAYgBsAGUAcwBoAGEAdAAyADAAMQA3ADEAMQAwADIALwBTAEMAUwA0ADAASwBHAFMARQBSAFYATwBfAEEAUwBNAF8AMQAyAF8AQQBTAE0ALgBzAHQAcAAtADEAQABzAGMAcwA0ADAAawBnAHMAZQByAHYAbwBfAGEAcwBtAGQAbwB1AGIAbABlAHMAaABhAHQAMgAwADEANwAxADEAMAAyAC4AcwB0AHAALwBZAEEATgBRAFUAQQBOAEsATwBVAF8ANAAuAHMAdABwAC0AMQBAAFMAQwBTADQAMABLAEcAUwBFAFIAVgBPAF8AQQBTAE0AXwAxADIAXwBBAFMATQAuAHMAdABwAAQAAAAQAAAAAQAAAAUAAACQAQAAIgAAABkAAAARAAAAFQAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TOmdTTy9ltmcyAC0AMgBAAHQAaQBuAGsAZQByAF8AdQByAGQAZgAEAAAAEAAAAAEAAAABAAAApgAAAA==</a:base64Binary></SWComponentPIDs><SWMainComponentPID i:nil="true"/><Visual z:Ref="i16"/><isFixedFrame>false</isFixedFrame><isIncomplete>false</isIncomplete></Link>
+2024-10-07 18:50:34,052 INFO  AssemblyExportForm.cs: 309 - Saving URDF package to D:\单腿\flexrobot\URDF\tinker_urdf
+2024-10-07 18:50:34,054 INFO  ExportHelper.cs: 147 - Beginning the export process
+2024-10-07 18:50:34,055 INFO  ExportHelper.cs: 153 - Creating package directories with name tinker_urdf and save path D:\单腿\flexrobot\URDF
+2024-10-07 18:50:35,082 INFO  ExportHelper.cs: 162 - Creating CMakeLists.txt at D:\单腿\flexrobot\URDF\tinker_urdf\CMakeLists.txt
+2024-10-07 18:50:35,086 INFO  ExportHelper.cs: 166 - Creating joint names config at D:\单腿\flexrobot\URDF\tinker_urdf\config\joint_names_tinker_urdf.yaml
+2024-10-07 18:50:35,087 INFO  ExportHelper.cs: 170 - Creating package.xml at D:\单腿\flexrobot\URDF\tinker_urdf\package.xml
+2024-10-07 18:50:35,089 INFO  PackageXMLWriter.cs: 21 - Creating package.xml at D:\单腿\flexrobot\URDF\tinker_urdf\package.xml
+2024-10-07 18:50:35,110 INFO  ExportHelper.cs: 177 - Creating RVIZ launch file in D:\单腿\flexrobot\URDF\tinker_urdf\launch\
+2024-10-07 18:50:35,113 INFO  ExportHelper.cs: 182 - Creating Gazebo launch file in D:\单腿\flexrobot\URDF\tinker_urdf\launch\
+2024-10-07 18:50:35,114 INFO  ExportHelper.cs: 187 - Saving existing STL preferences
+2024-10-07 18:50:35,115 INFO  ExportHelper.cs: 450 - Saving users preferences
+2024-10-07 18:50:35,116 INFO  ExportHelper.cs: 190 - Modifying STL preferences
+2024-10-07 18:50:35,116 INFO  ExportHelper.cs: 464 - Setting STL preferences
+2024-10-07 18:50:35,194 INFO  ExportHelper.cs: 196 - Found 11 hidden components 主控Odroid-1, 主控Odroid-1/外壳底Odroid C4 碳板-2, 路由器-1, M4铝柱-3, 人形控制载版.stp-1, 人形控制载版.stp-1/BAT1.stp-1/XT30UPB-M30_3D_DRAWING.stp-1, 人形控制载版.stp-1/Board.stp-1, M4铝柱-1, M4铝柱-2, M4铝柱-4, 载板PCB-1
+2024-10-07 18:50:35,194 INFO  ExportHelper.cs: 197 - Hiding all components
+2024-10-07 18:50:36,128 INFO  ExportHelper.cs: 204 - Beginning individual files export
+2024-10-07 18:50:36,130 INFO  ExportHelper.cs: 270 - Exporting link: base_link
+2024-10-07 18:50:36,131 INFO  ExportHelper.cs: 272 - Link base_link has 0 children
+2024-10-07 18:50:36,131 INFO  ExportHelper.cs: 317 - base_link: Exporting STL with coordinate frame Origin_global
+2024-10-07 18:50:36,132 INFO  ExportHelper.cs: 322 - base_link: Reference geometry name 
+2024-10-07 18:50:37,450 INFO  ExportHelper.cs: 330 - Saving STL to D:\单腿\flexrobot\URDF\tinker_urdf\meshes\base_link.STL
+2024-10-07 18:50:43,071 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2024-10-07 18:50:43,072 INFO  ExportHelper.cs: 145 - Showing all components except previously hidden components
+2024-10-07 18:51:01,089 INFO  ExportHelper.cs: 145 - Resetting STL preferences
+2024-10-07 18:51:01,090 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences
+2024-10-07 18:51:01,091 INFO  ExportHelper.cs: 228 - Writing URDF file to D:\单腿\flexrobot\URDF\tinker_urdf\urdf\tinker_urdf.urdf
+2024-10-07 18:51:01,101 INFO  CSVImportExport.cs: 32 - Writing CSV file D:\单腿\flexrobot\URDF\tinker_urdf\urdf\tinker_urdf.csv
+2024-10-07 18:51:01,141 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2024-10-07 18:51:01,143 INFO  ExportHelper.cs: 234 - Copying log file
+2024-10-07 18:51:01,147 INFO  ExportHelper.cs: 439 - Copying C:\Users\hp\sw2urdf_logs\sw2urdf.log to D:\单腿\flexrobot\URDF\tinker_urdf\export.log
