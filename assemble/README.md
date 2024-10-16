@@ -26,10 +26,8 @@ The motor ID sequence for both legs is consistent, as shown below:
 
 First, install the power board and base plate, and complete the installation of the support base. Note that the notch at the back of the base plate is where the battery is located, and the PCB 24V DC terminal is located here:
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm3.PNG" width="300" />
-</div>
-<div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm4.PNG" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm3.PNG" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm4.PNG" height="300" />
 </div>
 
 Then use M4 screws to install the bottom support:
@@ -54,25 +52,20 @@ Install two 8008 motors and aluminum supports to assemble with the above 6006 mo
 
 Complete the installation of the thigh motors and aluminum structures. The roll structure should bend downwards. Note that when installing the thigh motors, there is a separate carbon fiber support:
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm9.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm9.png" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm10.png" height="300" />
 </div>
-<div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm10.png" width="300" />
-</div>
+
 Assemble the thigh structure with the roll structure, ensuring the orientation of the head and aluminum structure:
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm11.png" width="300" />
-</div>
-<div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm12.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm11.png" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm12.png" height="300" />
 </div>
 
 After completing the assembly of the 6 motors, use carbon fiber beams to assemble the upper and lower plates, finishing the middle frame assembly:
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm13.png" width="300" />
-</div>
-<div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm14.jpeg" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm13.png" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm14.jpeg" height="300" />
 </div>
 
 - ### Assembling the Thighs
@@ -132,12 +125,12 @@ With the above steps, the Tinker assembly is complete. Before installing the hea
 ## Electrical Wiring Diagram
 After completing the mechanical structure assembly, begin electrical wiring. The following diagram shows the power supply for the entire Tinker. The CAN and power wires of a single leg can be merged into one path inside the body and plugged into the main controller and distribution board:
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_ag1.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_ag1.png" width="500" />
 </div>
 
 For communication cables, the left and right legs' CAN lines are combined into one. On the STM32 carrier board, the left leg connects to CAN1, and the right leg connects to CAN3. The servo board is connected via UART2, with the IO definitions shown on the silkscreen. Ensure TX on the servo board is connected to TX on the carrier board, and RX to RX.
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_ag2.png" height="150" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_ag2.png" height="300" />
 </div>
 
 ## Prototype Testing
