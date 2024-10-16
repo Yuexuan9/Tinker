@@ -79,7 +79,7 @@ Tinker is primarily built using 3D printing and carbon fiber cutting. To ensure 
 | DC head 0.1m                            | https://detail.tmall.com/item.htm?_u=71klsj891d42&id=598354258377&pisk=gshIybOVUMjIRKBEHQLaheX2m9Fix0O2waa-o4CFyWFLF_3Ecz5zUp45Nlgv-kJkK0Ms2c2UvuyzNzi4j25y-28WN43Yv7kUYznZVcXEYbrrbQgmcJ5Eyb7nImuATXJ3a_N3Z7K20IR2-2Vuwz_ww5jhBrzJayeRp2XQY29v0IRq5pU3aVKqTh5rCrzVw7BLJGL_zz5R90eR6VEgrzILy6LsWlqO9yFR9GFTkrSdw0Up6NU8l_U8J_EOXrET27E8p3kclz9Qx2TMc4AV4hCcmlCRwfaQBdPUX7rwzJeCv2ZGwPv38JMEJl1RwfDO4QaavKbaqWr3Qyiki6VLFYhU6XK9MR2-6cUtYUWu5Yg-iWmBA9qKLcw0WRQWiPo4X2cKCUjtJmrQ1Pcyj6ESBYhUK7jyGsr0M8Bk_1ag5o865TXrbHX0FiDU8v2LSyww5FsKEJUg5YT65TALpP4ZhFT1ve5..&spm=a1z09.2.0.0.13802e8dSiBGXc&sku_properties=122216547%3A20213 | 2        |
 
 ## Carbon fiber cutting
-V1：
+V1：[Click here to view the folder](https://drive.google.com/drive/folders/1KnC-RKWRdck51djY4cLO2_fAsvc746Mc?usp=drive_link)
 
 Carbon plate cutting includes the following content, among which the marked X needs to be processed according to the number, and the last two need to be cut 0.5mm on each side to ensure installation:
 <div align="center">
@@ -91,7 +91,7 @@ Carbon plate cutting includes the following content, among which the marked X ne
 </div>
 
 ## Aluminum alloy processing
-V1：
+V1：[Click here to view the folder](https://drive.google.com/drive/folders/1Rvp5F-ukXmW73BvD4d4sHrTAwg58c-pP?usp=drive_link)
 
 Aluminum alloy processing is as follows: hip processing 2, thigh processing according to symmetry 1 positive and 1 negative 2
 <div align="center">
@@ -99,7 +99,7 @@ Aluminum alloy processing is as follows: hip processing 2, thigh processing acco
 </div>
 
 ## 3D printing
-V1:
+V1:[Click here to view the folder](https://drive.google.com/drive/folders/12IBDAVzblmIEFn6BoeleFhU9YEcTEuLw?usp=drive_link)
 
 3D printing processing is as follows: DC represents the need to print 1 positive and 1 negative, and the corresponding number of other numbers marked separately:
 <div align="center">
@@ -107,7 +107,7 @@ V1:
 </div>
 
 ## PCB processing (optional)
-V1：
+V1：[Click here to view the folder](https://drive.google.com/drive/folders/1OVtjc0a6-6FSMaonkhxavuNPwOWzWQmY?usp=drive_link)
 
 PCB processing includes the following, and controller kits can also be purchased directly from RoboHome:
 https://item.taobao.com/item.htm?id=643604114830&pisk=fjLDrRT4bnSX_8wcO0bjjhb2a6_0h-_1IdUOBNBZ4TW7kdQAWaSPO6z4bi7Na3ABIthscZKlILJl3dAsG1WwQdX9D03pGI_17vQiJ2dXvTzRjdjV3Q7yN1q4uKDQGvQ17vHiihwhGN9KvASAigllM6qV7GSNzbfO1O7N3Gyya1WPQhzgEDW8oeccv92va-TtccbdLIW2MILrEiZXiTY97U50pOR21PzwrsjXW-koZjSvbBsBkg0gPZdH4a5M5XrGIGYfrTvn8P1W0KYPjUh_O98Xae_P22lHaU9vGUAT_V5JpTRXuwSz3urtIt1llKJ4flsVN_XQl3ao04N6mEGoZkif0_1xpbcufnSVN_biZbqe8i55MQ1..&spm=a1z10.1-c-s.w4004-23351273161.6.2d3f3ad6Yc6aSJ&skuId=4801836802568
