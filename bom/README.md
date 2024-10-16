@@ -82,19 +82,35 @@ Tinker is primarily built using 3D printing and carbon fiber cutting. To ensure 
 V1：
 
 Carbon plate cutting includes the following content, among which the marked X needs to be processed according to the number, and the last two need to be cut 0.5mm on each side to ensure installation:
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/bom/b1.jpeg" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/bom/b2.png" height="300" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/bom/b3.png" height="200" />
+</div>
 
 ## Aluminum alloy processing
 V1：
 
 Aluminum alloy processing is as follows: hip processing 2, thigh processing according to symmetry 1 positive and 1 negative 2
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/bom/b4.png" height="150" />
+</div>
 
 ## 3D printing
 V1:
 
-3D printing processing is as follows: DC represents the need to print 1 positive and 1 negative, and the corresponding number of other numbers marked separately
+3D printing processing is as follows: DC represents the need to print 1 positive and 1 negative, and the corresponding number of other numbers marked separately:
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/bom/b5.png" height="300" />
+</div>
 
 ## PCB processing (optional)
 V1：
 
 PCB processing includes the following, and controller kits can also be purchased directly from RoboHome:
 https://item.taobao.com/item.htm?id=643604114830&pisk=fjLDrRT4bnSX_8wcO0bjjhb2a6_0h-_1IdUOBNBZ4TW7kdQAWaSPO6z4bi7Na3ABIthscZKlILJl3dAsG1WwQdX9D03pGI_17vQiJ2dXvTzRjdjV3Q7yN1q4uKDQGvQ17vHiihwhGN9KvASAigllM6qV7GSNzbfO1O7N3Gyya1WPQhzgEDW8oeccv92va-TtccbdLIW2MILrEiZXiTY97U50pOR21PzwrsjXW-koZjSvbBsBkg0gPZdH4a5M5XrGIGYfrTvn8P1W0KYPjUh_O98Xae_P22lHaU9vGUAT_V5JpTRXuwSz3urtIt1llKJ4flsVN_XQl3ao04N6mEGoZkif0_1xpbcufnSVN_biZbqe8i55MQ1..&spm=a1z10.1-c-s.w4004-23351273161.6.2d3f3ad6Yc6aSJ&skuId=4801836802568
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/bom/b6.png" height="200" />
+</div>
