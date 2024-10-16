@@ -2,8 +2,9 @@
 ## _An Open-Source Bipedal Robot_
 ## Hardware Assembly
 Tinker V1 version simulates the primary structure of Disney's biped robot, featuring 5 degrees of freedom (DoF) per leg and powered by a 24V battery. The total weight is approximately 10 kg. It uses CAN servo communication to achieve high real-time 1KHz low-level communication and can deploy reinforcement learning algorithms for driving. The head uses a 3-DoF servo to adjust pitch and yaw angles, supporting SDK for secondary development:
-![ ](image_path)
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm1.PNG" width="300" />
+</div>
 Robot Reference Model:
 *(Content not available to display here)*
 
@@ -19,73 +20,125 @@ First, complete the assembly of the middle frame structure. Before installation,
 | Ankle   | 5      | 6006  |
 
 The motor ID sequence for both legs is consistent, as shown below:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm2.PNG" width="300" />
+</div>
 
 First, install the power board and base plate, and complete the installation of the support base. Note that the notch at the back of the base plate is where the battery is located, and the PCB 24V DC terminal is located here:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm3.PNG" width="300" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm4.PNG" width="300" />
+</div>
 
 Then use M4 screws to install the bottom support:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm5.PNG" width="300" />
+</div>
 
 Install the top plate and two 6006 motors. Align the debugging port with the notch:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm6.png" width="300" />
+</div>
 
 Mount the aluminum structure on the 6006 motors:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm7.png" width="300" />
+</div>
 
 Install two 8008 motors and aluminum supports to assemble with the above 6006 motors:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm8.png" width="300" />
+</div>
 
 Complete the installation of the thigh motors and aluminum structures. The roll structure should bend downwards. Note that when installing the thigh motors, there is a separate carbon fiber support:
-![ ](image_path)
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm9.png" width="300" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm10.png" width="300" />
+</div>
 Assemble the thigh structure with the roll structure, ensuring the orientation of the head and aluminum structure:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm11.png" width="300" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm12.png" width="300" />
+</div>
 
 After completing the assembly of the 6 motors, use carbon fiber beams to assemble the upper and lower plates, finishing the middle frame assembly:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm13.png" width="300" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm14.jpeg" width="300" />
+</div>
 
 - ### Assembling the Thighs
 After completing the middle frame assembly, proceed with the thigh assembly. Ensure all motor wires are connected properly, and check the orientation of the head and thigh arm cutouts:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm15.png" width="300" />
+</div>
 
 Once the thigh carbon plates are installed, install the left and right cable protection structures. Pay attention to the notch position and ensure the motor wires are routed correctly:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm16.png" width="300" />
+</div>
 
 - ### Assembling the Shin
 Assembling the shin is relatively simple. Secure the motor and route the cables as shown in the diagram:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm17.png" width="300" />
+</div>
 
 Route the foot-end cables through the shin's carbon plate groove, bundling them with the shin motor cables:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm18.png" width="300" />
+</div>
 
 Finally, install the foot end with a separate carbon fiber support:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm19.png" width="300" />
+</div>
 
 - ### Installing the Battery
 Install the battery and the chest's printed structure:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm20.png" width="300" />
+</div>
 
 Route the battery power cables upwards, and connect the power wiring and air switch input/output connections. Install the air switch and its mounting structure:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm21.png" width="300" />
+</div>
 
 - ### Installing the Main Control Board
 Before installing the main control system, ensure all control units are configured. Install the Odroid controller, router, and servo driver board according to the diagram:
-![ ](image_path)
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm22.png" width="300" />
+</div>
 Mount the Jetson Nano on the back using the printed support structure:
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm23.png" width="300" />
+</div>
 
 After completing the main control system's hardware installation, secure it to the body using the support structure:
-![ ](image_path)
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm24.png" width="300" />
+</div>
 With the above steps, the Tinker assembly is complete. Before installing the head, perform electrical welding and gait testing. Only install the head once no errors are detected to avoid damage from falls.
 
 ## Electrical Wiring Diagram
 After completing the mechanical structure assembly, begin electrical wiring. The following diagram shows the power supply for the entire Tinker. The CAN and power wires of a single leg can be merged into one path inside the body and plugged into the main controller and distribution board:
-*(Content not available to display here)*
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_ag1.png" width="300" />
+</div>
 
 For communication cables, the left and right legs' CAN lines are combined into one. On the STM32 carrier board, the left leg connects to CAN1, and the right leg connects to CAN3. The servo board is connected via UART2, with the IO definitions shown on the silkscreen. Ensure TX on the servo board is connected to TX on the carrier board, and RX to RX.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_ag2.png" height="150" />
+</div>
 
 ## Prototype Testing
 1. After completing hardware assembly and servo system installation, verify polarity before powering up. Connect to the router, check the IP of the main controller, and start the three control programs either manually or automatically.
