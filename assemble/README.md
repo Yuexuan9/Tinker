@@ -182,7 +182,7 @@ Once the head and the robot are fully assembled, perform a complete system test:
 1. **Power On**: 
    Ensure that joint calibration is complete before powering up. Lift the robot with its legs vertical and hold down the X button. The robot should retract its legs into a crouched position. If everything is functioning correctly, the robot should stand stably on the ground using position control loops.
    
-   > If there are issues with the motor rotation, press the ↓ button to cut off power.
+   > If there are issues with the motor rotation, press the `↓` button to cut off power.
 
 2. **Start RL Program**: 
    Refer to previous instructions to start the RL software, and verify that data is refreshing correctly.
