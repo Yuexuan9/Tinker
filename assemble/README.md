@@ -118,7 +118,8 @@ Mount the Jetson Nano on the back using the printed support structure:
 
 After completing the main control system's hardware installation, secure it to the body using the support structure:
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm24.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm24.png" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm24.jpeg" height="300" />
 </div>
 With the above steps, the Tinker assembly is complete. Before installing the head, perform electrical welding and gait testing. Only install the head once no errors are detected to avoid damage from falls.
 
@@ -140,10 +141,25 @@ For communication cables, the left and right legs' CAN lines are combined into o
 ```bash
 roslaunch urdf_tutorial display.launch model:=/home/pi/Downloads/LocomotionWithNP3O-master/resources//tinker/urdf/tinker_urdf.urdf
 ```
-
-3. Insert the game controller, open the upper computer, and place the robot on a flat surface to calibrate the joints. Ensure symmetry between the legs and follow the steps for joint alignment. Avoid wearing sleeves during calibration to prevent errors:
-![ ](image_path)
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag1.png" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag2.png" height="300" />
+</div>
+3. Insert the game controller, open the upper computer, and place the robot on a flat surface to calibrate the joints. Ensure symmetry between the legs and follow the steps for joint alignment. Avoid wearing sleeves during calibration to prevent errors.
+Place the robot base tightly against the ground, with the left and right legs symmetrical, and fasten the foot end to the thigh motor.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag3.jpeg" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag4.jpeg" height="300" />
+</div>
+Press your toes tightly with your hands, keep your thigh motor close to the table, and align your left and right legs.
+The left and right thigh arms are pressed backward towards the body structure to achieve a state of outward expansion and inward contraction. Note that the thigh arms must be pushed against the crossbeam structure connected to the upper and lower boards.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag5.jpeg" width="500" />
+</div>
+Make sure the robot is connected, press the key to reset the main control, wait for the posture to stabilize, and calibrate the acceleration and gyroscope of the motor with the upper computer sensor.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag6.png" width="500" />
+</div>
 4. Re-power the robot (important: some motors need re-powering after calibration). Lift the robot, hold down the X button, and check if the legs retract to the crouched position. The robot should stand when placed on the ground.
 
 ## Installing the Head
@@ -154,7 +170,10 @@ Once electrical testing and gait tests are complete, proceed with head installat
 | Pitch 2    | 1        | SCS40  |
 | Yaw        | 2        | SCS125 |
 
-![ ](image_path)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag7.png" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag8.png" height="300" />
+</div>
 
 After soldering the servo power wires and combining them into one path, connect them to the servo driver board.
 
@@ -163,7 +182,7 @@ Once the head and the robot are fully assembled, perform a complete system test:
 1. **Power On**: 
    Ensure that joint calibration is complete before powering up. Lift the robot with its legs vertical and hold down the X button. The robot should retract its legs into a crouched position. If everything is functioning correctly, the robot should stand stably on the ground using position control loops.
    
-   If there are issues with the motor rotation, press the ↓ button to cut off power.
+   > If there are issues with the motor rotation, press the ↓ button to cut off power.
 
 2. **Start RL Program**: 
    Refer to previous instructions to start the RL software, and verify that data is refreshing correctly.
