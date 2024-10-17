@@ -23,6 +23,7 @@ Tinker primarily uses reinforcement learning for control. Below is the complete 
 ## Odroid Controller System Configuration
 
   This guide provides the steps to install the 5.10 RT kernel on the Odroid C4 for real-time communication with the STM32 control board. The steps involve downloading the required image, burning it to an SD card, updating the system, and installing the necessary development tools.
+  [2_IP303 Instruction](https://docs.google.com/document/d/1vPL9UoZW20sJJxURa68NVbsvmoNdLAVW/edit?usp=drive_link&ouid=104255196359889104654&rtpof=true&sd=true)
 
   To set up the system, use the provided instructions to install the RT real-time patch for the 5.10 kernel version. Reference [this forum post](https://forum.odroid.com/viewtopic.php?f=55&t=41129) for more details.
   Since the RT patch is only compatible with the 5.10 kernel version, you will need to download the 1218 version of the image (as the original post linked the 5.11 version, which is not supported). 
@@ -74,6 +75,8 @@ To achieve CAN communication, SPI is used for high-speed communication between O
 
 **V1:** The V1 version currently only provides firmware.
 
+[F407_FC.hex](https://drive.google.com/file/d/1Gf5wbCc6sO4q2qFnuwNtqjt-A1DhvB2R/view?usp=drive_link)
+
 ---
 ## Motor Configuration
 
@@ -109,8 +112,9 @@ motor_chassis[i].motor.anal_type=M_MIT;
 break;
 ```
 
-It is recommended to update the corresponding 8006 motors to the latest version of the same firmware:
+It is recommended to update the corresponding 8006 motors to the latest version of the same firmware.
 
+[Damiao](https://drive.google.com/drive/folders/1KnC-RKWRdck51djY4cLO2_fAsvc746Mc?usp=drive_link)
 
 ---
 
@@ -124,18 +128,23 @@ If Tinker is equipped with a head, you need to configure the servos on the bus. 
 | 2-Axis Pitch    | 1        | SCS40  |
 | Yaw (Heading)   | 2        | SCS125 |
 
+[FD19.8.1.rar](https://drive.google.com/file/d/1EDrdxpF2Ymz0OfZ5OsW3DxpGYs4qwE90/view?usp=drive_link)
+
 ---
 
 ## STM32 Carrier Board Configuration
 
 The STM32 carrier board is accompanied by a custom-developed upper computer. After connecting the USB converter to the corresponding interface on the STM32 carrier board, ensure that the power supply is stable. Then, open the upper computer software and connect to the virtual COM port. If the virtual COM port is not detected, you may need to install the necessary drivers:  
-
+[Virtual COM Port driver V1.5.0.rar](https://drive.google.com/file/d/1uuhiYtNGxeTXtBCTBPr5kz_kKH_pcbce/view?usp=drive_link)
 Next, open the actuator interface and configure it as shown below. Select the corresponding motor type and the appropriate direction settings, then save the motor configuration: 
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/0/whiteboard_ug1.png" width="300" />
 </div>
 
-**V1:** Please note that the image folder in the upper computer software must be placed in the root directory of the D drive.  
+**V1:** 
+Please note that the image folder in the upper computer software must be placed in the root directory of the D drive.  
+
+[upper computer.rar](https://drive.google.com/file/d/1icTSwYw3gnz_ipY1XrbzaZGFPWtGljmV/view?usp=drive_link)
 
 ---
 
@@ -167,7 +176,12 @@ Afterward, restart the controller. Once the system is up, use the `top` command 
 
 For configuration software, you can use:  
 
+[putty.exe](https://drive.google.com/file/d/1WcXI9IVzbpopcH0JQHlvaY-ucwCFGIxr/view?usp=drive_link)
+[WinSCP.exe](https://drive.google.com/file/d/1DlW7sgCHLVWpbjxLYgEGm6deTLkvyu92/view?usp=drive_link)
+
 **V1:**  
+
+[Tinker.rar](https://drive.google.com/file/d/1KfFQUZ8alXkkvc0c4pAmWQHyw0OcuPXl/view?usp=drive_link)
 
 ---
 
@@ -268,6 +282,8 @@ First, you need to complete the JetsonNano environment setup (you can also use o
    Refer to [this post](https://blog.csdn.net/yangyu0515/article/details/133922022#:~:text=%E7%82%B9%E5%87%BBadd%EF%BC%8C%E5%9C%A8%E6%96%B0,add%E7%A1%AE%E8%AE%A4%E6%B7%BB%E5%8A%A0%E3%80%82) for details.
 
 Once installation is complete, copy the Jetson-specific `sim2sim` software to your local machine and compile it. Afterward, copy the model from the server to Jetson, modify the model path and master controller IP as done on the server, and run the test.
+
+[sim2sim_lcm.rar](https://drive.google.com/file/d/1YC_1fXLcj6rgHkGUtPaOiV9k3QHX9NVM/view?usp=drive_link)
 
 ---
 
