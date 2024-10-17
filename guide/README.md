@@ -23,6 +23,7 @@ Tinker primarily uses reinforcement learning for control. Below is the complete 
 ## Odroid Controller System Configuration
 
   This guide provides the steps to install the 5.10 RT kernel on the Odroid C4 for real-time communication with the STM32 control board. The steps involve downloading the required image, burning it to an SD card, updating the system, and installing the necessary development tools.
+  
   [2_IP303 Instruction](https://docs.google.com/document/d/1vPL9UoZW20sJJxURa68NVbsvmoNdLAVW/edit?usp=drive_link&ouid=104255196359889104654&rtpof=true&sd=true)
 
   To set up the system, use the provided instructions to install the RT real-time patch for the 5.10 kernel version. Reference [this forum post](https://forum.odroid.com/viewtopic.php?f=55&t=41129) for more details.
@@ -114,7 +115,7 @@ break;
 
 It is recommended to update the corresponding 8006 motors to the latest version of the same firmware.
 
-[Damiao](https://drive.google.com/drive/folders/1KnC-RKWRdck51djY4cLO2_fAsvc746Mc?usp=drive_link)
+[Damiao.rar](https://drive.google.com/drive/folders/1KnC-RKWRdck51djY4cLO2_fAsvc746Mc?usp=drive_link)
 
 ---
 
