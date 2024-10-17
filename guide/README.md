@@ -35,6 +35,10 @@ Tinker primarily uses reinforcement learning for control. Below is the complete 
   Once downloaded, burn the image to your SD card and insert it into the Odroid system.
   
 > Username: `odroid` Password: `odroid`
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug1.PNG" height="300" />
+</div>
   
   Since the system is a server version, it cannot connect to the internet and has no text editor installed. Therefore, the first priority is to update the system and install the basic development environment. Since the Odroid C4 does not have Wi-Fi and is directly connected via Ethernet, it lacks the ifconfig tool to check its own IP address, making it impossible to connect to the internet. Thus, I will use a router relay solution here: 
 
@@ -113,7 +117,15 @@ motor_chassis[i].motor.anal_type=M_MIT;
 break;
 ```
 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug2.png" height="500" />
+</div>
+
 It is recommended to update the corresponding 8006 motors to the latest version of the same firmware.
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug3.png" height="200" />
+</div>
 
 [Damiao.rar](https://drive.google.com/drive/folders/1KnC-RKWRdck51djY4cLO2_fAsvc746Mc?usp=drive_link)
 
@@ -129,6 +141,10 @@ If Tinker is equipped with a head, you need to configure the servos on the bus. 
 | 2-Axis Pitch    | 1        | SCS40  |
 | Yaw (Heading)   | 2        | SCS125 |
 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug4.png" height="500" />
+</div>
+
 [FD19.8.1.rar](https://drive.google.com/file/d/1EDrdxpF2Ymz0OfZ5OsW3DxpGYs4qwE90/view?usp=drive_link)
 
 ---
@@ -138,11 +154,11 @@ If Tinker is equipped with a head, you need to configure the servos on the bus. 
 The STM32 carrier board is accompanied by a custom-developed upper computer. After connecting the USB converter to the corresponding interface on the STM32 carrier board, ensure that the power supply is stable. Then, open the upper computer software and connect to the virtual COM port. If the virtual COM port is not detected, you may need to install the necessary drivers:  
 [Virtual COM Port driver V1.5.0.rar](https://drive.google.com/file/d/1uuhiYtNGxeTXtBCTBPr5kz_kKH_pcbce/view?usp=drive_link)
 Next, open the actuator interface and configure it as shown below. Select the corresponding motor type and the appropriate direction settings, then save the motor configuration: 
+
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/0/whiteboard_ug1.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug5.png" height="500" />
 </div>
 
-**V1:** 
 Please note that the image folder in the upper computer software must be placed in the root directory of the D drive.  
 
 [upper computer.rar](https://drive.google.com/file/d/1icTSwYw3gnz_ipY1XrbzaZGFPWtGljmV/view?usp=drive_link)
@@ -152,9 +168,13 @@ Please note that the image folder in the upper computer software must be placed 
 ## Motion Control Program Download
 
 After completing the Odroid RT system configuration, you need to download the control program to the robot controller:  
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug6.png" height="300" />
+</div>
 Create the Tinker and the corresponding subdirectories in the root directory of the Odroid system:  
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug7.png" height="200" />
+</div>
 Next, edit the auto-start script by running:
 
 ```bash
@@ -174,7 +194,9 @@ sudo /home/odroid/Tinker/navigation_task_tinker &
 ```
 
 Afterward, restart the controller. Once the system is up, use the `top` command to check if the auto-start process was successful:  
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug8.png" height="200" />
+</div>
 For configuration software, you can use:  
 
 [putty.exe](https://drive.google.com/file/d/1WcXI9IVzbpopcH0JQHlvaY-ucwCFGIxr/view?usp=drive_link)
@@ -193,7 +215,7 @@ After completing the software setup, you need to follow the assembly guide to co
 For standard model testing, we recommend using a server to perform inference tests to ensure the real-time solution of the model. Control commands are transmitted to the robot's controller over a UDP network to drive the robot.  
 
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/0/whiteboard_ug2.png" height="150" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/whiteboard_ug2.png" height="150" />
 </div>
 
 We recommend the following server configuration for sampling:  
@@ -211,12 +233,21 @@ This table outlines the essential components and configuration required for runn
 In the RL project we provide, `train` generates the corresponding `.pt` files in the log, which can be further converted into deployable models like `jit` through `simple_play`. The final inference result is transmitted via UDP using the scripts from `sim2sim_lcm` in the C++ version. The steps for exporting and running a model are as follows:
 
 1. Set the path to the `.pt` model in `Simple_play` and run it:  
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug9.png" height="280" />
+</div>
 2. The `jit` model generated after training should have its path configured in the `sim2sim` software:  
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug10.png" height="250" />
+</div>
 At the same time, configure the robot controller's IP address:  
-
-Inside the `build` folder, run `make` and execute `udp_publish_tinker`. If everything is working correctly, the system will show that the model has been successfully loaded and real-time action results will be printed:  
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug11.png" height="300" />
+</div>
+Inside the `build` folder, run `make` and execute `udp_publish_tinker`. If everything is working correctly, the system will show that the model has been successfully loaded and real-time action results will be printed: 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug12.jpeg" height="500" />
+</div>
 
 ---
 
@@ -271,7 +302,9 @@ First, you need to complete the JetsonNano environment setup (you can also use o
 
 6. **Modify the `CMakeLists.txt` File**:  
    Update the paths for CUDA and Torch libraries, and add the `cuBLAS` library path.  
-   *Image temporarily unavailable for display outside of Feishu Docs.*
+   <div align="center">
+    <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug13.png" height="500" />
+   </div>
 
 7. **Compile the Contents** of the `sim2sim_lcm` folder:  
    Before compiling, modify the model path in the file to point to `model_jitt.pt` and run:
@@ -291,13 +324,21 @@ Once installation is complete, copy the Jetson-specific `sim2sim` software to yo
 ## Gait Testing
 
 After completing all functional tests on the robot, you can start testing the gait. First, select an IP name in the image file's TXT document on the upper computer, modify the address to the controller's IP, and choose its name when connecting with the upper computer:
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug14.png" height="200" />
+</div>
 Before opening the upper computer, insert a USB controller, connect to Wi-Fi, and select the corresponding IP:
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug15.png" height="200" />
+</div>
 If the angle display on the upper computer shows `333`, the controller is running:
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug16.png" height="500" />
+</div>
 Reset the STM32 controller board by pressing the reset button, then check that joint angles and posture data on the upper computer are normal:
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug17.png" height="500" />
+</div>
 ### Steps:
 
 1. **Powering On**:  
