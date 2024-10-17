@@ -339,6 +339,7 @@ Reset the STM32 controller board by pressing the reset button, then check that j
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug17.png" height="500" />
 </div>
+
 ### Steps:
 
 1. **Powering On**:  
