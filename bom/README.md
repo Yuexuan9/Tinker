@@ -109,8 +109,7 @@ V1:[Click here to view the folder](https://drive.google.com/drive/folders/12IBDA
 ## PCB processing (optional)
 V1：[Click here to view the folder](https://drive.google.com/drive/folders/1OVtjc0a6-6FSMaonkhxavuNPwOWzWQmY?usp=drive_link)
 
-PCB processing includes the following, and controller kits can also be purchased directly from RoboHome:
-https://item.taobao.com/item.htm?id=643604114830&pisk=fjLDrRT4bnSX_8wcO0bjjhb2a6_0h-_1IdUOBNBZ4TW7kdQAWaSPO6z4bi7Na3ABIthscZKlILJl3dAsG1WwQdX9D03pGI_17vQiJ2dXvTzRjdjV3Q7yN1q4uKDQGvQ17vHiihwhGN9KvASAigllM6qV7GSNzbfO1O7N3Gyya1WPQhzgEDW8oeccv92va-TtccbdLIW2MILrEiZXiTY97U50pOR21PzwrsjXW-koZjSvbBsBkg0gPZdH4a5M5XrGIGYfrTvn8P1W0KYPjUh_O98Xae_P22lHaU9vGUAT_V5JpTRXuwSz3urtIt1llKJ4flsVN_XQl3ao04N6mEGoZkif0_1xpbcufnSVN_biZbqe8i55MQ1..&spm=a1z10.1-c-s.w4004-23351273161.6.2d3f3ad6Yc6aSJ&skuId=4801836802568
+PCB processing includes the following, and controller kits can also be purchased directly from [RoboHome](https://item.taobao.com/item.htm?id=643604114830&pisk=fjLDrRT4bnSX_8wcO0bjjhb2a6_0h-_1IdUOBNBZ4TW7kdQAWaSPO6z4bi7Na3ABIthscZKlILJl3dAsG1WwQdX9D03pGI_17vQiJ2dXvTzRjdjV3Q7yN1q4uKDQGvQ17vHiihwhGN9KvASAigllM6qV7GSNzbfO1O7N3Gyya1WPQhzgEDW8oeccv92va-TtccbdLIW2MILrEiZXiTY97U50pOR21PzwrsjXW-koZjSvbBsBkg0gPZdH4a5M5XrGIGYfrTvn8P1W0KYPjUh_O98Xae_P22lHaU9vGUAT_V5JpTRXuwSz3urtIt1llKJ4flsVN_XQl3ao04N6mEGoZkif0_1xpbcufnSVN_biZbqe8i55MQ1..&spm=a1z10.1-c-s.w4004-23351273161.6.2d3f3ad6Yc6aSJ&skuId=4801836802568)
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/bom/b6.png" height="200" />
 </div>
