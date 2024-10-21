@@ -1,5 +1,5 @@
 # Tinker
-## _An Open-Source Bipedal Robot_
+## Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!
 ## Hardware Assembly
 Tinker V1 version simulates the primary structure of Disney's biped robot, featuring 5 degrees of freedom (DoF) per leg and powered by a 24V battery. The total weight is approximately 10 kg. It uses CAN servo communication to achieve high real-time 1KHz low-level communication and can deploy reinforcement learning algorithms for driving. The head uses a 3-DoF servo to adjust pitch and yaw angles, supporting SDK for secondary development:
 <div align="center">
