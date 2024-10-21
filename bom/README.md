@@ -1,5 +1,5 @@
 # Tinker
-## Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot! 
+## _Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!_ 
 Tinker is primarily built using 3D printing and carbon fiber cutting. To ensure structural rigidity, some parts use aluminum alloy cuts. The entire robot runs on 24V power and can be manually assembled. You can process the Tinker kit based on the list below or purchase a pre-assembled kit from the official RoboHome store:  
 [Official RoboHome Store](https://shop124436104.taobao.com/?spm=pc_detail.29232929/evo365560b447257.shop_block.dshopinfo.2e687dd6BnZIzR)
 
