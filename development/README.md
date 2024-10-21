@@ -97,6 +97,7 @@ After training with Isaac, the model must be transferred. Sim2Sim involves build
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/4.png" height="300" />
 </div>
+
 - **a. Using Mujoco Python/C++ simulation**: Embedding the network I/O in the Mujoco interface, preferred for semi-physical transfer.
 - **b. Using Mujoco C++ simulation with LCM/ROS**: Running the Mujoco simulation asynchronously, interacting with C++ and Pytorch via LCM, suited for real-world transfer.
 
