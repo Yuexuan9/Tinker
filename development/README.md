@@ -6,7 +6,7 @@ Tinker is driven by reinforcement learning, where neural networks execute gaits,
 ## Acknowledgements
 This project is based on the original code from [LocomotionWithNP3O](https://github.com/zeonsunlightyu/LocomotionWithNP3O). Special thanks to the contributors of the original repository for their work and contributions.
 
-**Performance on the real robot**: Please check out the link below:  
+**Performance on the real robot** please check out the link below:  
 [Code Repository Update Series 1: Check it out! GitHub: LocomotionWithNP3O - Bilibili](https://b23.tv/haLM4jg)
 
 ## Coordinate System Definition
