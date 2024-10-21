@@ -162,7 +162,7 @@ Make sure the robot is connected, press the key to reset the main control, wait 
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag6.png" width="500" />
 </div>
 Long press the remote control ` Y ` button, confirm whether the angle is reset after hearing the buzzer sound. It is recommended to repeat the first calibration 2-3 times to ensure that all joint calibration is completed.
-Re-power the robot (important: some motors need re-powering after calibration). Lift the robot, hold down the ` X ` button, and check if the legs retract to the crouched position. The robot should stand when placed on the ground.
+4. Re-power the robot (important: some motors need re-powering after calibration). Lift the robot, hold down the ` X ` button, and check if the legs retract to the crouched position. The robot should stand when placed on the ground.
 
 ## Installing the Head
 Once electrical testing and gait tests are complete, proceed with head installation. Before installing the neck, reset all servos to 0 positions using the upper control software. Then, install the servos in the following angles and positions, ensuring the correct servo IDs and models:
