@@ -1,4 +1,7 @@
-# Tinker: Open-Source Bipedal Robot
+# Tinker: Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/t01.JPG" height="300" />
+</div>
 
 **Tinker** is an open-source bipedal robot designed to provide robotic enthusiasts and developers with a hands-on platform. This project includes a detailed list of required hardware materials, software resources, and comprehensive installation steps to help users easily build and program their own robot.
 
@@ -10,10 +13,10 @@ Through Tinker, users will not only gain insights into the fundamental principle
 - Customization and Expansion
 
 ## Table of Contents
-- [Tinker Usage Guide](#tinker-usage-guide)
-- [Tinker BOM List](#tinker-bom-list)
-- [Tinker Assembly Guide](#tinker-assembly-guide)
-- [Tinker Custom Development](#tinker-custom-development)
+- [Tinker Usage Guide](https://github.com/Yuexuan9/Tinker/tree/main/guide)
+- [Tinker BOM List](https://github.com/Yuexuan9/Tinker/tree/main/bom)
+- [Tinker Assembly Guide](https://github.com/Yuexuan9/Tinker/tree/main/assemble)
+- [Tinker Development](https://github.com/Yuexuan9/Tinker/tree/main/development)
 
 ---
 
@@ -27,7 +30,7 @@ A detailed Bill of Materials (BOM) required to build the Tinker robot will be li
 Comprehensive instructions on how to assemble Tinker from scratch, complete with images, will be made available in this section.
 
 ## Tinker Custom Development
-Explore how to extend and enhance Tinker’s functionalities through custom development. This section will cover software development, hardware customization, and integration with external sensors or controllers.
+Explore how to extend and enhance Tinker’s functionalities through custom development. This section will cover software development.
 
 ---
 
