@@ -99,7 +99,7 @@ Aluminum alloy processing is as follows: hip processing 2, thigh processing acco
 </div>
 
 ## 3D printing
-V1:[Click here to view the folder](https://drive.google.com/drive/folders/12IBDAVzblmIEFn6BoeleFhU9YEcTEuLw?usp=drive_link)
+V1: [Click here to view the folder](https://drive.google.com/drive/folders/12IBDAVzblmIEFn6BoeleFhU9YEcTEuLw?usp=drive_link)
 
 3D printing processing is as follows: DC represents the need to print 1 positive and 1 negative, and the corresponding number of other numbers marked separately:
 <div align="center">
