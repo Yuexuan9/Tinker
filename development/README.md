@@ -11,7 +11,7 @@ This project is based on the original code from [LocomotionWithNP3O](https://git
 
 ## Coordinate System Definition
 First, export the URDF and use RViz to review the coordinate system and angles, mainly to increase joint limits, angular velocities, and maximum torque. The URDF and XML files for Tinker are as follows:  
-Content not available outside Feishu documents.
+You can download the file from [this Google Drive link](https://drive.google.com/file/d/1ZrNIlMniP54uTsEq2xIo4VjpPapP6Isk/view?usp=drive_link).
 
 To view the URDF in RViz, use the following command:
 ```bash
