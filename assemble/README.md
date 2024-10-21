@@ -137,6 +137,7 @@ For communication cables, the left and right legs' CAN lines are combined into o
 ## Prototype Testing
 1. After completing hardware assembly and servo system installation, verify polarity before powering up. Connect to the router, check the IP of the main controller, and start the three control programs either manually or automatically.
 2. Open the upper computer to confirm that data feedback is normal, with joint angles consistent with the coordinate system definitions. You can use Rviz to check URDF for the correct motor directions:
+You can download the file from [this Google Drive link](https://drive.google.com/file/d/1ZrNIlMniP54uTsEq2xIo4VjpPapP6Isk/view?usp=drive_link).
 
 ```bash
 roslaunch urdf_tutorial display.launch model:=/home/pi/Downloads/LocomotionWithNP3O-master/resources//tinker/urdf/tinker_urdf.urdf
