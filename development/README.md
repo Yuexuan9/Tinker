@@ -17,6 +17,10 @@ To view the URDF in RViz, use the following command:
 ```bash
 roslaunch urdf_tutorial display.launch model:=/home/pi/Downloads/LocomotionWithNP3O-master/resources//tinker/urdf/tinker_urdf.urdf
 ```
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/1.PNG" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/2.PNG" height="300" />
+</div>
 
 ## Environment Setup
 Follow the commands below to set up the environment, and refer to online tutorials to install IsaacGym in the virtual environment:
@@ -75,7 +79,9 @@ After setting up the environment and activating the virtual space, run the scrip
 python train.py
 ```
 The trained model will be updated here:  
-![Image6](#)
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/3.png" height="300" />
+</div>
 
 To test the model, first modify the model file used in `simple_play.py`:
 ```python
@@ -88,6 +94,9 @@ python simple_play.py
 
 ### Sim2Sim Testing
 After training with Isaac, the model must be transferred. Sim2Sim involves building a framework on the controller side to run the neural network and feed the necessary feedback data. Using the Human-Gym as a reference, Mujoco simulator enables Sim2Sim transfer. For real-world transfer, additional software in C++ may be required. Typical transfer frameworks can be:
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/4.png" height="300" />
+</div>
 - **a. Using Mujoco Python/C++ simulation**: Embedding the network I/O in the Mujoco interface, preferred for semi-physical transfer.
 - **b. Using Mujoco C++ simulation with LCM/ROS**: Running the Mujoco simulation asynchronously, interacting with C++ and Pytorch via LCM, suited for real-world transfer.
 
@@ -115,7 +124,9 @@ python sim2sim_tinker.py
 
 ### Prototype Inference Test
 For prototype testing, connect the robot to the training server via Ethernet, or deploy the model on Jetson Nano for edge deployment.
-
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/5.png" height="150" />
+</div>
 First, compile the `sim2sim_lcm` build folder, ensuring that **libtorch** and **cuDNN** are installed. Then, modify the `udp_publisher_tinker.cpp` to set the robot's IP address:
 ```cpp
 string UDP_IP="192.168.1.242";
@@ -132,12 +143,25 @@ Run the publisher:
 ```
 
 ### Robot Operation
-Once the model is trained, the robot assembled, and the migration software compiled, gait testing can begin.
-
-1. **Power on the robot**: Ensure joint calibration is done. Lift the robot in a vertical leg position and press the X button. The robot should squat and lock into place.
-   - In case of issues, press ↓ to cut power.
-
-2. **Start the RL Program**: Activate the transfer software on the server or Jetson Nano, and confirm data refresh.
-
-3. **Gait Driving**: In standing mode, press X to drive the robot using RL data. The left joystick controls XY velocity, the rear triggers control heading, and the right joystick adjusts head position. Press B to return to standing lock mode, and ↓ to cut power.
-```
+After completing Model Training, robot installation and assembly, and migrating software package compilation, you can start testing the gait. First, select an IP name in the image file txt document of the host computer and modify the address to the master IP. Then, select the corresponding name from the drop-down connection menu of the host computer.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/6.png" height="150" />
+</div>
+Before opening the host computer, insert the USB handle, connect to WIFI, and select the corresponding IP.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/7.png" height="150" />
+</div>
+If the angle displayed by the host computer is 333, the controller software has already run.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/8.png" height="300" />
+</div>
+If you press the reset button on the main control STM32 carrier board to reset, the above joint angle and posture of the upper computer will have normal data.
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/9.png" height="300" />
+</div>
+Power on:
+Before powering on, it is necessary to ensure that the robot joints have been calibrated according to the assembly instructions. Lift the robot with both legs in a vertical position, long press the X button, and the robot will retract its legs to a squatting angle. At this time, the robot should be able to be placed normally on the ground to achieve locked standing.
+If there is an abnormality and the motor rotates, press the button ↓ to turn off the power
+Start RL program:
+Start the migration software on the server or JetsonNano side, and confirm that the data is refreshed
+Press X again in standing mode, and the robot will use RL data for gait driving. At this time, the left joystick corresponds to the XY speed command, the left and right triggers at the back of the handle correspond to the heading command, and the handle and joystick correspond to the robot's head posture. Press B to re-enter the locked state to achieve standing, and the power-off protection is under the button
