@@ -1,4 +1,5 @@
-# Tinker: Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!
+# Tinker  
+## Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/t01.JPG" height="300" />
 </div>
@@ -33,6 +34,10 @@ Comprehensive instructions on how to assemble Tinker from scratch, complete with
 Explore how to extend and enhance Tinker’s functionalities through custom development. This section will cover software development.
 
 ---
+
+## Video
+
+[![Click to watch the video](https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg)](https://youtu.be/nC0g2TXLNzI)
 
 ## License
 
