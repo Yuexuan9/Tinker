@@ -1,5 +1,5 @@
 # Tinker
-## _An Open-Source Bipedal Robot_
+## _Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!_
 Tinker primarily uses reinforcement learning for control. Below is the complete tutorial for deploying the robot. If the corresponding hardware modules are provided by RoboHome, you can skip the relevant sections.
 
 ## Recommended Setup and Debugging Steps
