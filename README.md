@@ -1,5 +1,5 @@
 # Tinker  
-## Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!
+## _Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!_
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/t01.JPG" height="300" />
 </div>
