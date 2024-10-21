@@ -1,5 +1,5 @@
 # Tinker
-## Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot! 
+## _Flexible, and Ready to Move: Your Cartoon-Style Bipedal Robot!_ 
 
 Tinker is driven by reinforcement learning, where neural networks execute gaits, achieving stable walking and standing. During testing, software is required to train the neural network. 
 
