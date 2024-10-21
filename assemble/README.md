@@ -146,6 +146,7 @@ roslaunch urdf_tutorial display.launch model:=/home/pi/Downloads/LocomotionWithN
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag1.png" height="300" />
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag2.png" height="300" />
 </div>
+
 3. Insert the game controller, open the upper computer, and place the robot on a flat surface to calibrate the joints. Ensure symmetry between the legs and follow the steps for joint alignment. Avoid wearing sleeves during calibration to prevent errors.
 Place the robot base tightly against the ground, with the left and right legs symmetrical, and fasten the foot end to the thigh motor.
 <div align="center">
@@ -162,6 +163,7 @@ Make sure the robot is connected, press the key to reset the main control, wait 
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/ag6.png" width="500" />
 </div>
 Long press the remote control ` Y ` button, confirm whether the angle is reset after hearing the buzzer sound. It is recommended to repeat the first calibration 2-3 times to ensure that all joint calibration is completed.
+
 4. Re-power the robot (important: some motors need re-powering after calibration). Lift the robot, hold down the ` X ` button, and check if the legs retract to the crouched position. The robot should stand when placed on the ground.
 
 ## Installing the Head
