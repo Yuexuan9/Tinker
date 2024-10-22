@@ -4,7 +4,8 @@
 Tinker is driven by reinforcement learning, where neural networks execute gaits, achieving stable walking and standing. During testing, software is required to train the neural network. 
 
 ## Acknowledgements
-This project is based on the original code from [LocomotionWithNP3O](https://github.com/zeonsunlightyu/LocomotionWithNP3O). Special thanks to the contributors of the original repository for their work and contributions.
+This project is based on the original code from [LocomotionWithNP3O](https://github.com/zeonsunlightyu/LocomotionWithNP3O). Special thanks to the contributors of the original repository for their work and contributions. 
+Our code has been modified based on this. [Click here to download](https://drive.google.com/file/d/1LdauN7O6L77jsrmTSDgzHp0mcgKvIAJ_/view?usp=sharing).
 
 **Performance on the real robot** please check out the link below:  
 [Code Repository Update Series 1: Check it out! GitHub: LocomotionWithNP3O - Bilibili](https://b23.tv/haLM4jg)
