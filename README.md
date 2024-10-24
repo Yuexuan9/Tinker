@@ -38,7 +38,7 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 ## Video
 
 [![Click to watch the video](https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg)](https://youtu.be/nC0g2TXLNzI)
-[![Click to watch the video](https://b23.tv/GL5qTvX)
+[![Click to watch the video](https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg)](https://b23.tv/GL5qTvX)
 ## License
 
 AGPL-3.0
