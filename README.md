@@ -37,7 +37,7 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 
 ## Video
 
-youtube:
+YouTube:
 
 <a href="https://youtu.be/nC0g2TXLNzI">
   <img src="https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg" width="500" />
