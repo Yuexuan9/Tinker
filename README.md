@@ -49,7 +49,7 @@ bilibili:
   <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/videos/24fp.png" width="500" />
 </a>
 
-Find more process videos [here](your_video_url).
+Find more process videos [here](https://youtu.be/ASK_Aj-35oE).
 ## License
 
 AGPL-3.0
