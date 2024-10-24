@@ -37,13 +37,19 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 
 ## Video
 
+youtube:
+
 <a href="https://youtu.be/nC0g2TXLNzI">
   <img src="https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg" width="500" />
 </a>
+
+bilibili:
+
 <a href="https://b23.tv/GL5qTvX">
   <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/videos/24fp.png" width="500" />
 </a>
 
+Find more process videos [here](your_video_url).
 ## License
 
 AGPL-3.0
