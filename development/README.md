@@ -167,3 +167,9 @@ If there is an abnormality and the motor rotates, press the button ↓ to turn o
 Start RL program:
 Start the migration software on the server or JetsonNano side, and confirm that the data is refreshed
 Press X again in standing mode, and the robot will use RL data for gait driving. At this time, the left joystick corresponds to the XY speed command, the left and right triggers at the back of the handle correspond to the heading command, and the handle and joystick correspond to the robot's head posture. Press B to re-enter the locked state to achieve standing, and the power-off protection is under the button
+
+## Video
+
+<a href="https://youtu.be/30T1W8FTUro">
+  <img src="https://img.youtube.com/vi/30T1W8FTUro/0.jpg" width="500" />
+</a>
