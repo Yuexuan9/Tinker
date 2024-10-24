@@ -38,10 +38,10 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 ## Video
 
 <a href="https://youtu.be/nC0g2TXLNzI">
-  <img src="https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg" width="450" height="300" />
+  <img src="https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg" width="500" />
 </a>
 <a href="https://b23.tv/GL5qTvX">
-  <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/videos/24fp.png" width="550" height="300" />
+  <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/videos/24fp.png" width="500" />
 </a>
 
 ## License
