@@ -37,8 +37,12 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 
 ## Video
 
-[![Click to watch the video](https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg)](https://youtu.be/nC0g2TXLNzI)
-[![Click to watch the video](https://github.com/Yuexuan9/Tinker/raw/main/docs/images/videos/24fp.png)](https://b23.tv/GL5qTvX)
+<a href="https://youtu.be/nC0g2TXLNzI">
+  <img src="https://img.youtube.com/vi/nC0g2TXLNzI/0.jpg" width="450" height="300" />
+</a>
+<a href="https://b23.tv/GL5qTvX">
+  <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/videos/24fp.png" width="550" height="300" />
+</a>
 ## License
 
 AGPL-3.0
