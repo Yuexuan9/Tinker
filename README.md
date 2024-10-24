@@ -43,6 +43,7 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 <a href="https://b23.tv/GL5qTvX">
   <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/videos/24fp.png" width="550" height="300" />
 </a>
+
 ## License
 
 AGPL-3.0
