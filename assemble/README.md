@@ -5,8 +5,8 @@ Tinker V1 version simulates the primary structure of Disney's biped robot, featu
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/bm1.PNG" width="300" />
 </div>
-Robot Reference Model:
-*(Content not available to display here)*
+
+[Robot Reference Model](https://drive.google.com/file/d/1_RZISD0UwsXpW5vh1HhzGIpm2f5NXvxn/view?usp=share_link)
 
 - ### Assembling the Middle Frame
 First, complete the assembly of the middle frame structure. Before installation, ensure all motors are calibrated and parameters configured. During assembly, connect the CAN and power lines of each motor to facilitate welding after assembly:
