@@ -54,5 +54,7 @@ Find more process videos [here](https://youtu.be/ASK_Aj-35oE).
 
 AGPL-3.0
 
-
+---
 ✨Feel free to customize this further based on specific content for each section!✨
+
+For more open-source information, visit [OpenLoong](https://www.openloong.org.cn/cn).
