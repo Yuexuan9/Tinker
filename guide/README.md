@@ -52,10 +52,11 @@ sudo apt install linux-image-5.10.0-odroid-rt-arm64
 sudo reboot
 ```
 
-After reboot, check if the RT kernel is running:
+After installation, restart the system and use uname -a to check if RT commands are available.
 
 ```bash
-uname -a
+$ uname -a
+Linux focal-server 5.10.0-odroid-rt-arm64 #1 SMP PREEMPT_RT Ubuntu 5.10.0-202012062208~focal (2020-12-06) aarch64 aarch64 aarch64 GNU/Linux
 ```
 
 You should see output similar to: 
@@ -64,7 +65,7 @@ You should see output similar to:
 Linux focal-server 5.10.0-odroid-rt-arm64 #1 SMP PREEMPT_RT Ubuntu 5.10.0-202012062208~focal (2020-12-06) aarch64 aarch64 aarch64 GNU/Linux
 ```
 
-Install the necessary development tools such as `nano`, `ifconfig`, `cmake`, and others:
+Then install the corresponding build environment, including tools like nano, ifconfig, cmake, etc.
 
 ```bash
 sudo apt-get install g++
@@ -181,7 +182,9 @@ Next, edit the auto-start script by running:
 sudo nano /etc/rc.local
 ```
 
-Add the following lines:
+At the same time, edit the startup script using:
+sudo nano /etc/rc.local
+Copy the following:
 
 ```bash
 test -f /etc/ssh/ssh_host_dsa_key || dpkg-reconfigure openssh-server
@@ -340,6 +343,74 @@ Reset the STM32 controller board by pressing the reset button, then check that j
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/Instruction/ug17.png" height="500" />
 </div>
 
+## Precise Calibration Mode
+
+Due to the high demands of reinforcement learning on joint angle calibration, the default calibration method relies on driving the robot’s joints to their limit positions. However, this method may result in errors under certain circumstances. For example, calibration may be performed after placing the robot in the following positions:
+[Image]
+[Image]
+
+Press and hold the start button for a few seconds until a prompt sound is heard. After the music ends, avoid moving the robot for 3 seconds to complete the calibration. At this point, you can manually calibrate individual joints according to the URDF definition.
+
+Next, check the joint angles displayed on the upper-level controller. Since each angle’s definition is predefined, you can set all joints to the zero position and verify the reported angles in the upper-level controller. Adjust the robot’s internal configuration file, param_robot.yaml, accordingly. Then, terminate the robot control program and restart it.
+
+```bash
+kin_param: #0 left leg
+  dof_num:  [5,5,5,5]
+  kin_head: [1,-1,1,-1]
+
+  init_q00: 0
+  init_q01: -4
+  init_q02: 50
+  init_q03: -96
+  init_q04: 48
+  init_q05: 0
+  init_q10: 0
+  init_q11: 4
+  init_q12: 50
+  init_q13: -96
+  init_q14: 48
+  init_q15: 0
+
+  max_q00: 22
+  max_q01: 18
+  max_q02: 74
+  max_q03: 0
+  max_q04: 65
+  max_q05: 0
+  max_q10: 22
+  max_q11: 18
+  max_q12: 74
+  max_q13: 0
+  max_q14: 65
+  max_q15: 0
+
+  min_q00: -22
+  min_q01: -18
+  min_q02: -36
+  min_q03: -142
+  min_q04: -40
+  min_q05: 0
+  min_q10: -22
+  min_q11: -18
+  min_q12: -36
+  min_q13: -142
+  min_q14: -40
+  min_q15: 0
+
+  reset_q00: 28.4   修改这里
+  reset_q01: 26
+  reset_q02: 47
+  reset_q03: -138.5
+  reset_q04: -7.8
+  reset_q05: 0
+  reset_q10: -28.4
+  reset_q11: -26
+  reset_q12: 47
+  reset_q13: -138.5
+  reset_q14: -7.8
+  reset_q15: 0
+```
+
 ### Steps:
 
 1. **Powering On**:  
@@ -351,5 +422,143 @@ Reset the STM32 controller board by pressing the reset button, then check that j
 
 3. **Gait Activation**:  
    While in standing mode, press the `X` button again. The robot will use RL data to initiate gait control. The left joystick corresponds to XY speed commands, while the left and right triggers on the back of the controller correspond to heading commands. If the robot operates correctly, you can control its movement.
+
+
+### Robot Setup Guide
+
+1. **IP Connection**
+
+	1.	Power On: Turn on the robot and wait for a few minutes.
+	2.	Wi-Fi Connection: Search for and connect to the Wi-Fi:
+SSID: Tinker-2.4G-XXX
+Password: 11111111
+	3.	Browser Login: Open a browser and navigate to http://192.168.1.1/. Enter the password 11111111, and click on Client.
+	4.	Login: Use the credentials admin/admin to log in.
+	5.	Network Mapping: Navigate to the network map. For example:
+	•	192.168.1.11 represents the Odroid control board.
+	•	192.168.1.132 represents NVIDIA Jetson Nano.
+(The last three digits may vary between machines.)
+![Image Placeholder]
+
+2. **Connecting the Upper-Level Controller**
+
+2.1 Wired Remote Controller Version
+
+	1.	Ensure the following files are available:
+	•	Folder: MOCO_OCU图片 (must be placed in the D drive).
+	•	Executable: main_win.exe (location is flexible).
+![Image Placeholder]
+	2.	Modify Upper-Level Controller IP:
+Open D:\MOCO_OCU图片\ocu_param.txt and adjust the following values:
+
+UDP_IP_WIFI, 192.168.1.239  
+UDP_IP_NET,  192.168.1.248  
+UDP_IP_WIFI_AP, 192.168.1.114  
+UDP_IP_Cassie, 192.168.1.128  
+
+
+	3.	Connect Remote Controller: Plug the remote controller into the computer via USB.**
+	4.	Run the Controller Software: Open \main_win2024\main_win\main_win.exe.
+![Image Placeholder]
+	5.	Connect: Click the dropdown button next to “Connect” and select the UDP_WIFI connection.
+	6.	Verify Connection: Sensor data (e.g., IMU data) will appear on the interface, indicating a successful connection.
+![Image Placeholder]
+
+2.2 Wireless Remote Controller Version
+
+	•	Operates similarly to the wired version but does not require a direct connection to the upper-level controller.
+	•	Important:
+	•	Calibration requires the upper-level controller.
+	•	General operation can proceed without it.
+
+Check Wireless Module Status:
+	•	Power On: Lightly press the central round button (do not long press, as it may disable the controller).
+	•	Connection Indicators:
+	•	Receiver only white light: Waiting for connection.
+	•	Receiver white + blue light: Connected successfully.
+	•	Charging: Use the provided USB cable if the indicator does not light up when powered on.
+![Image Placeholder]
+
+3. **Calibration**
+
+3.1 Motor Calibration
+
+Rough Calibration:
+	1.	Place the robot in the specified posture and ensure it is level.
+	2.	Long-press the START button until music plays, then release.
+	3.	Wait for the music to finish. Calibration is complete.
+![Image Placeholder]
+
+Precise Calibration (Recommended):
+	•	This method is necessary for tasks requiring high joint angle accuracy, such as reinforcement learning.
+
+	1.	Place the robot in the specified posture:
+![Image Placeholder]
+	2.	Use the “Angle Viewer” version of the upper-level controller. Follow the rough calibration steps.
+	3.	Check the joint angles displayed on the upper-level controller:
+![Image Placeholder]
+	4.	Access the Odroid terminal and use the top command to locate and kill the control_task_ti process:
+
+sudo kill 1677  
+
+![Image Placeholder]
+
+	5.	Use WinSCP to edit the configuration file (param_robot.yaml) based on the displayed angles. Save changes.
+![Image Placeholder]
+	6.	Restart the control_task_ti process:
+
+sudo ./Tinker/control_task_tinker  
+
+
+
+3.2 Sensor Calibration
+
+	1.	Place the robot body as shown, ensuring the four support points are level.
+![Image Placeholder]
+	2.	Connect the upper-level controller, navigate to “Sensors,” and perform the following calibrations:
+	•	Calibrate Accelerometer
+	•	Calibrate Gyroscope
+	3.	Verify that the pitch and roll angles on the controller are close to 0, indicating successful calibration.
+![Image Placeholder]
+
+4. **Starting Reinforcement Learning**
+
+	1.	Open the Putty software or a terminal for SSH.
+![Image Placeholder]
+	2.	Connect to the NVIDIA Jetson Nano using its IP address (e.g., 192.168.1.248).
+	•	Username: nvidia
+	•	Password: 1 or nvidia
+	3.	Navigate to the folder /sim2sim_lcm/build/.
+	4.	Start the UDP publisher program:
+
+./udp_publisher_tinker  
+
+Wait until the following output appears, indicating success:
+![Image Placeholder]
+
+Operating the Tinker Robot:
+	1.	Stand: Long-press X to make the robot stand. Manually assist to prevent falls, then release X.
+	2.	Reinforcement Learning Mode: Short-press X again. (Ensure reinforcement learning is started in step 4 before pressing.)
+	3.	Control:
+	•	Left Joystick: Forward/backward movement.
+	•	Right Joystick: Head turning.
+	•	LB/LT/RB/RT/1/2 Buttons: Directional controls.
+	4.	Stop:
+	•	Long-press B to stand still.
+	•	Press Y for a slow descent and stop.
+	•	In emergencies, press the bottom-left button to disable the robot.
+![Image Placeholder]
+
+5. **Copying Files**
+
+Replacing the Network Model:
+	1.	Open WinSCP and connect using the Jetson IP and password.
+	2.	Navigate to the folder /home/nvidia/sim2sim_lcm/.
+	3.	Delete the existing network models and upload the new ones to the same location.
+	4.	Restart the UDP publisher program:
+
+./udp_publisher_tinker  
+
+![Image Placeholder]
 
 ---
