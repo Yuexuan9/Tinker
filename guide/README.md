@@ -411,18 +411,6 @@ kin_param: #0 left leg
   reset_q15: 0
 ```
 
-### Steps:
-
-1. **Powering On**:  
-   Before powering on, make sure the robot’s joint calibration has been completed. Lift the robot with its legs in a vertical position, then press and hold the `X` button. The robot will retract its legs to a squat position. At this point, the robot should be able to stand using position loop control for angles.  
-   If an anomaly occurs or the motor rotates incorrectly, press the `↓` button to cut the power.
-
-2. **Starting the RL Program**:  
-   Refer to the previous content to start the RL software and confirm the data is refreshing.
-
-3. **Gait Activation**:  
-   While in standing mode, press the `X` button again. The robot will use RL data to initiate gait control. The left joystick corresponds to XY speed commands, while the left and right triggers on the back of the controller correspond to heading commands. If the robot operates correctly, you can control its movement.
-
 
 ### Robot Setup Guide
 
@@ -540,13 +528,10 @@ Precise Calibration (Recommended):
 This method is necessary for tasks requiring high joint angle accuracy, such as reinforcement learning.
 
 Place the robot in the specified posture:
- 
-<div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01168.png" height="500" />
-</div>
 
-<div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01169.png" height="500" />
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011681.png" height="500" />
+  <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011682.png" height="500" />
 </div>
 
 Use the “Angle Viewer” version of the upper-level controller. Follow the rough calibration steps.
@@ -567,9 +552,6 @@ Use WinSCP to edit the configuration file (param_robot.yaml) based on the displa
  
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011612.png" height="500" />
-</div>
-
-<div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011613.png" height="500" />
 </div>
 
@@ -585,9 +567,6 @@ Place the robot body as shown, ensuring the four support points are level.
  
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011614.png" height="500" />
-</div>
-
-<div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011615.png" height="500" />
 </div>
 
@@ -601,8 +580,6 @@ Verify that the pitch and roll angles on the controller are close to 0, indicati
  
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011616.png" height="500" />
-</div>
-<div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011617.png" height="500" />
 </div>
 
@@ -612,9 +589,6 @@ Open the Putty software or a terminal for SSH.
 
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011618.png" height="500" />
-</div>
-
-<div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011619.png" height="500" />
 </div>
 
