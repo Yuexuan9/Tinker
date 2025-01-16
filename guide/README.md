@@ -428,84 +428,152 @@ kin_param: #0 left leg
 
 1. **IP Connection**
 
-	1.	Power On: Turn on the robot and wait for a few minutes.
-	2.	Wi-Fi Connection: Search for and connect to the Wi-Fi:
+Power On: Turn on the robot and wait for a few minutes.
+
+Wi-Fi Connection: Search for and connect to the Wi-Fi:
+
 SSID: Tinker-2.4G-XXX
+
 Password: 11111111
-	3.	Browser Login: Open a browser and navigate to http://192.168.1.1/. Enter the password 11111111, and click on Client.
-	4.	Login: Use the credentials admin/admin to log in.
-	5.	Network Mapping: Navigate to the network map. For example:
-	•	192.168.1.11 represents the Odroid control board.
-	•	192.168.1.132 represents NVIDIA Jetson Nano.
+
+Browser Login: Open a browser and navigate to http://192.168.1.1/. Enter the password 11111111, and click on Client.
+
+Login: Use the credentials admin/admin to log in.
+
+Network Mapping: Navigate to the network map. For example:
+
+192.168.1.11 represents the Odroid control board.
+192.168.1.132 represents NVIDIA Jetson Nano.
 (The last three digits may vary between machines.)
-![Image Placeholder]
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/0116update.png" height="500" />
+</div>
 
 2. **Connecting the Upper-Level Controller**
 
 2.1 Wired Remote Controller Version
 
-	1.	Ensure the following files are available:
-	•	Folder: MOCO_OCU图片 (must be placed in the D drive).
-	•	Executable: main_win.exe (location is flexible).
-![Image Placeholder]
-	2.	Modify Upper-Level Controller IP:
+Ensure the following files are available
+
+Folder: MOCO_OCU图片 (must be placed in the D drive).
+
+Executable: main_win.exe (location is flexible).
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01162.png" height="500" />
+</div>
+
+Modify Upper-Level Controller IP:
+
 Open D:\MOCO_OCU图片\ocu_param.txt and adjust the following values:
 
 UDP_IP_WIFI, 192.168.1.239  
+
 UDP_IP_NET,  192.168.1.248  
+
 UDP_IP_WIFI_AP, 192.168.1.114  
+
 UDP_IP_Cassie, 192.168.1.128  
 
 
-	3.	Connect Remote Controller: Plug the remote controller into the computer via USB.**
-	4.	Run the Controller Software: Open \main_win2024\main_win\main_win.exe.
-![Image Placeholder]
-	5.	Connect: Click the dropdown button next to “Connect” and select the UDP_WIFI connection.
-	6.	Verify Connection: Sensor data (e.g., IMU data) will appear on the interface, indicating a successful connection.
-![Image Placeholder]
+Connect Remote Controller: Plug the remote controller into the computer via USB.
+
+Run the Controller Software: Open \main_win2024\main_win\main_win.exe.
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01163.png" height="500" />
+</div>
+
+Connect: Click the dropdown button next to “Connect” and select the UDP_WIFI connection.
+
+Verify Connection: Sensor data (e.g., IMU data) will appear on the interface, indicating a successful connection.
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01164.png" height="500" />
+</div>
 
 2.2 Wireless Remote Controller Version
 
-	•	Operates similarly to the wired version but does not require a direct connection to the upper-level controller.
-	•	Important:
-	•	Calibration requires the upper-level controller.
-	•	General operation can proceed without it.
+Operates similarly to the wired version but does not require a direct connection to the upper-level controller.
+
+Calibration requires the upper-level controller.
+
+General operation can proceed without it.
 
 Check Wireless Module Status:
-	•	Power On: Lightly press the central round button (do not long press, as it may disable the controller).
-	•	Connection Indicators:
-	•	Receiver only white light: Waiting for connection.
-	•	Receiver white + blue light: Connected successfully.
-	•	Charging: Use the provided USB cable if the indicator does not light up when powered on.
-![Image Placeholder]
+
+Power On: Lightly press the central round button (do not long press, as it may disable the controller).
+
+Connection Indicators:
+
+Receiver only white light: Waiting for connection.
+
+Receiver white + blue light: Connected successfully.
+
+Charging: Use the provided USB cable if the indicator does not light up when powered on.
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01165.png" height="500" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01166.png" height="500" />
+</div>
 
 3. **Calibration**
 
 3.1 Motor Calibration
 
 Rough Calibration:
-	1.	Place the robot in the specified posture and ensure it is level.
-	2.	Long-press the START button until music plays, then release.
-	3.	Wait for the music to finish. Calibration is complete.
-![Image Placeholder]
+Place the robot in the specified posture and ensure it is level.
+
+Long-press the START button until music plays, then release.
+
+Wait for the music to finish. Calibration is complete.
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01167.png" height="500" />
+</div>
 
 Precise Calibration (Recommended):
-	•	This method is necessary for tasks requiring high joint angle accuracy, such as reinforcement learning.
 
-	1.	Place the robot in the specified posture:
-![Image Placeholder]
-	2.	Use the “Angle Viewer” version of the upper-level controller. Follow the rough calibration steps.
-	3.	Check the joint angles displayed on the upper-level controller:
-![Image Placeholder]
-	4.	Access the Odroid terminal and use the top command to locate and kill the control_task_ti process:
+This method is necessary for tasks requiring high joint angle accuracy, such as reinforcement learning.
+
+Place the robot in the specified posture:
+ 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01168.png" height="500" />
+</div>
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/01169.png" height="500" />
+</div>
+
+Use the “Angle Viewer” version of the upper-level controller. Follow the rough calibration steps.
+ 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011610.png" height="500" />
+</div>
+
+Access the Odroid terminal and use the top command to locate and kill the control_task_ti process:
 
 sudo kill 1677  
 
-![Image Placeholder]
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011611.png" height="500" />
+</div>
 
-	5.	Use WinSCP to edit the configuration file (param_robot.yaml) based on the displayed angles. Save changes.
-![Image Placeholder]
-	6.	Restart the control_task_ti process:
+Use WinSCP to edit the configuration file (param_robot.yaml) based on the displayed angles. Save changes.
+ 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011612.png" height="500" />
+</div>
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011613.png" height="500" />
+</div>
+
+Restart the control_task_ti process:
 
 sudo ./Tinker/control_task_tinker  
 
@@ -513,52 +581,109 @@ sudo ./Tinker/control_task_tinker
 
 3.2 Sensor Calibration
 
-	1.	Place the robot body as shown, ensuring the four support points are level.
-![Image Placeholder]
-	2.	Connect the upper-level controller, navigate to “Sensors,” and perform the following calibrations:
-	•	Calibrate Accelerometer
-	•	Calibrate Gyroscope
-	3.	Verify that the pitch and roll angles on the controller are close to 0, indicating successful calibration.
-![Image Placeholder]
+Place the robot body as shown, ensuring the four support points are level.
+ 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011614.png" height="500" />
+</div>
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011615.png" height="500" />
+</div>
+
+Connect the upper-level controller, navigate to “Sensors,” and perform the following calibrations:
+
+Calibrate Accelerometer
+
+Calibrate Gyroscope
+
+Verify that the pitch and roll angles on the controller are close to 0, indicating successful calibration.
+ 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011616.png" height="500" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011617.png" height="500" />
+</div>
 
 4. **Starting Reinforcement Learning**
 
-	1.	Open the Putty software or a terminal for SSH.
-![Image Placeholder]
-	2.	Connect to the NVIDIA Jetson Nano using its IP address (e.g., 192.168.1.248).
-	•	Username: nvidia
-	•	Password: 1 or nvidia
-	3.	Navigate to the folder /sim2sim_lcm/build/.
-	4.	Start the UDP publisher program:
+Open the Putty software or a terminal for SSH.
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011618.png" height="500" />
+</div>
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011619.png" height="500" />
+</div>
+
+Connect to the NVIDIA Jetson Nano using its IP address (e.g., 192.168.1.248).
+
+Username: nvidia
+
+Password: 1 or nvidia
+
+Navigate to the folder /sim2sim_lcm/build/.
+
+Start the UDP publisher program:
 
 ./udp_publisher_tinker  
 
 Wait until the following output appears, indicating success:
-![Image Placeholder]
+
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011620.png" height="500" />
+</div>
 
 Operating the Tinker Robot:
-	1.	Stand: Long-press X to make the robot stand. Manually assist to prevent falls, then release X.
-	2.	Reinforcement Learning Mode: Short-press X again. (Ensure reinforcement learning is started in step 4 before pressing.)
-	3.	Control:
-	•	Left Joystick: Forward/backward movement.
-	•	Right Joystick: Head turning.
-	•	LB/LT/RB/RT/1/2 Buttons: Directional controls.
-	4.	Stop:
-	•	Long-press B to stand still.
-	•	Press Y for a slow descent and stop.
-	•	In emergencies, press the bottom-left button to disable the robot.
-![Image Placeholder]
+
+Stand: Long-press X to make the robot stand. Manually assist to prevent falls, then release X.
+
+Reinforcement Learning Mode: Short-press X again. (Ensure reinforcement learning is started in step 4 before pressing.)
+
+Control:
+
+Left Joystick: Forward/backward movement.
+
+Right Joystick: Head turning.
+
+LB/LT/RB/RT/1/2 Buttons: Directional controls.
+
+Stop:
+
+Long-press B to stand still.
+
+Press Y for a slow descent and stop.
+
+In emergencies, press the bottom-left button to disable the robot.
+
+ <div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011621.png" height="500" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011622.png" height="500" />
+</div>
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011623.png" height="500" />
+</div>
 
 5. **Copying Files**
 
 Replacing the Network Model:
-	1.	Open WinSCP and connect using the Jetson IP and password.
-	2.	Navigate to the folder /home/nvidia/sim2sim_lcm/.
-	3.	Delete the existing network models and upload the new ones to the same location.
-	4.	Restart the UDP publisher program:
+
+Open WinSCP and connect using the Jetson IP and password.
+
+Navigate to the folder /home/nvidia/sim2sim_lcm/.
+
+Delete the existing network models and upload the new ones to the same location.
+
+Restart the UDP publisher program:
 
 ./udp_publisher_tinker  
 
-![Image Placeholder]
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011624.png" height="500" />
+</div>
 
 ---
