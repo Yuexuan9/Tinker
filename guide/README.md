@@ -530,8 +530,8 @@ This method is necessary for tasks requiring high joint angle accuracy, such as 
 Place the robot in the specified posture:
 
 <div align="center" style="display: flex; justify-content: center; gap: 10px;">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011681.png" height="500" />
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011682.png" height="500" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011681.jpeg" height="500" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011682.jpeg" height="500" />
 </div>
 
 Use the “Angle Viewer” version of the upper-level controller. Follow the rough calibration steps.
