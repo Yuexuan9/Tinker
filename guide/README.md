@@ -530,8 +530,8 @@ This method is necessary for tasks requiring high joint angle accuracy, such as 
 Place the robot in the specified posture:
 
 <div align="center" style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011681.png" height="500" />
-  <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011682.png" height="500" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011681.png" height="500" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011682.png" height="500" />
 </div>
 
 Use the “Angle Viewer” version of the upper-level controller. Follow the rough calibration steps.
@@ -550,7 +550,7 @@ sudo kill 1677
 
 Use WinSCP to edit the configuration file (param_robot.yaml) based on the displayed angles. Save changes.
  
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011612.png" height="500" />
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011613.png" height="500" />
 </div>
@@ -565,7 +565,7 @@ sudo ./Tinker/control_task_tinker
 
 Place the robot body as shown, ensuring the four support points are level.
  
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011614.png" height="500" />
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011615.png" height="500" />
 </div>
@@ -578,7 +578,7 @@ Calibrate Gyroscope
 
 Verify that the pitch and roll angles on the controller are close to 0, indicating successful calibration.
  
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011616.png" height="500" />
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011617.png" height="500" />
 </div>
@@ -587,7 +587,7 @@ Verify that the pitch and roll angles on the controller are close to 0, indicati
 
 Open the Putty software or a terminal for SSH.
 
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011618.png" height="500" />
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011619.png" height="500" />
 </div>
