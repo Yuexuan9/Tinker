@@ -9,7 +9,9 @@
 Through Tinker, users will not only gain insights into the fundamental principles of robot movement and control, but also have the opportunity to personalize and enhance their projects. We aim to inspire more people to explore and engage with robotics technology through this initiative.
 
 🚶 Reinforcement Learning-Based Control
+
 🧾 Step-by-Step Assembly Instructions
+
 💡 Customization and Expansion
 
 ## Core Technologies
@@ -31,9 +33,6 @@ The solution includes IsaacGym-based RL simulation, sim-to-sim transfer, real-wo
 
 The system is equipped with open-source training software that provides a wide range of functional modules, including model training settings, data visualization, and algorithm debugging interfaces. Users can freely adjust training parameters, monitor data changes in real-time during training, and optimize algorithms while troubleshooting issues. The open-source nature offers great flexibility and scalability, allowing users to customize training plans according to their needs. Additionally, the open-source community provides valuable resources and technical exchange opportunities to accelerate development.
 
-Sim2Sim Results:
-
-Play Results:
 
 5. Integrated Solution: Physical Robot + Reinforcement Learning
 
