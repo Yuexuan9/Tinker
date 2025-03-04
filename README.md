@@ -8,6 +8,33 @@
 
 Through Tinker, users will not only gain insights into the fundamental principles of robot movement and control, but also have the opportunity to personalize and enhance their projects. We aim to inspire more people to explore and engage with robotics technology through this initiative.
 
+## Core Technologies
+
+1. Reinforcement Learning Algorithm Adaptation
+
+The robot is specifically designed for reinforcement learning algorithms, enabling autonomous learning and continuous optimization of action strategies in complex and dynamic environments. Through deep integration with reinforcement learning, it demonstrates outstanding performance in motion control, task execution, and action planning. For example, when facing unknown terrains or complex tasks, the robot can quickly adapt and make reasonable decisions to efficiently complete tasks.
+
+2. Direct Deployment and Testing
+
+This system features a convenient direct deployment and testing function, making it widely applicable to various task scenarios. By simply connecting the device, users can quickly initiate robot testing, significantly reducing the R&D cycle and improving work efficiency. Compared to traditional deployment methods, it offers significant advantages in autonomy, flexibility, cost control, adaptability, and safety.
+
+3. Complete Solution from Simulation to Real-World Deployment
+
+The solution includes IsaacGym-based RL simulation, sim-to-sim transfer, real-world deployment, and secondary development tutorials.
+
+
+4. Open-Source Training Software
+
+The system is equipped with open-source training software that provides a wide range of functional modules, including model training settings, data visualization, and algorithm debugging interfaces. Users can freely adjust training parameters, monitor data changes in real-time during training, and optimize algorithms while troubleshooting issues. The open-source nature offers great flexibility and scalability, allowing users to customize training plans according to their needs. Additionally, the open-source community provides valuable resources and technical exchange opportunities to accelerate development.
+
+Sim2Sim Results:
+
+Play Results:
+
+5. Integrated Solution: Physical Robot + Reinforcement Learning
+
+This solution combines real-world robotics with reinforcement learning to provide a comprehensive development and deployment framework.
+
 ## Features
 - Reinforcement Learning-Based Control
 - Step-by-Step Assembly Instructions
