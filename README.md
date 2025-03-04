@@ -8,6 +8,10 @@
 
 Through Tinker, users will not only gain insights into the fundamental principles of robot movement and control, but also have the opportunity to personalize and enhance their projects. We aim to inspire more people to explore and engage with robotics technology through this initiative.
 
+🚶 Reinforcement Learning-Based Control
+🧾 Step-by-Step Assembly Instructions
+💡 Customization and Expansion
+
 ## Core Technologies
 
 1. Reinforcement Learning Algorithm Adaptation
@@ -35,10 +39,22 @@ Play Results:
 
 This solution combines real-world robotics with reinforcement learning to provide a comprehensive development and deployment framework.
 
-## Features
-- Reinforcement Learning-Based Control
-- Step-by-Step Assembly Instructions
-- Customization and Expansion
+## Performance Parameters
+
+1. Motion Performance
+
+	1.	Maximum Walking Speed: The robot can achieve a stable walking speed of up to 1m/s and a normal walking speed of 0.5m/s, demonstrating excellent mobility. It can move quickly through various environments, meeting the speed requirements for multiple application scenarios.
+	2.	Load Capacity: The robot has a load capacity of 1kg, allowing it to carry tools or objects and perform tasks such as item transportation and equipment operation.
+
+2. Battery Life
+
+	1.	Battery: The robot is powered by a 21.6V 5Ah 108Wh battery with a charging voltage of 25.2V and comes with a dedicated charger. The battery life is yet to be measured, aiming to provide stable power for long-duration operations.
+	2.	Energy-Saving Design: The system incorporates energy-saving optimizations at both hardware and software levels to reduce power consumption, extend battery life, and improve overall efficiency.
+    
+3. Control System
+   
+	1.	Controller: Equipped with high-performance controllers such as NVIDIA Jetson Nano, Odroid, and STM32, enabling fast data processing for real-time response and precise control.
+	2.	Sensors: The system integrates advanced sensors, including a gyroscope, accelerometer, and electronic compass, to continuously monitor the robot’s posture, motion state, and surrounding environment. This provides essential data for accurate control and intelligent decision-making. Additionally, it supports Wi-Fi and 2.4G wireless Bluetooth, ensuring convenient data transmission and remote control capabilities.
 
 ## Table of Contents
 - [Tinker Usage Guide](https://github.com/Yuexuan9/Tinker/tree/main/guide)
