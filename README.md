@@ -4,15 +4,23 @@
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/t01.JPG" height="300" />
 </div>
 
+**Tinker** 是一款开源的双足小机器人，旨在为机器人爱好者和开发者提供一个可操作的平台。该项目将详细提供所需的硬件材料、软件资源及完整的安装步骤，帮助用户轻松搭建和编程自己的机器人。通过Tinker，用户不仅能深入了解机器人运动和控制的基本原理，还能在此基础上进行个性化的扩展和改进。我们希望通过这个项目激发更多人对机器人技术的兴趣与探索，同时Tinker采用了OmniBotLab通用具身控制方案OmniBotLab介绍加速算法开发与模型部署
+
+## 🌟 主要特点
+- **🛠️ 简单**：无传动机构，使用 3D 打印和碳板切割即可完成组装。  
+- **💰 低成本**：整机 BOM 价格低于 2W，90% 组件（电机、控制器）采用货架产品，支持二次开发。  
+- **🤖 具身智能开发**：采用 **OmniRobLab 框架**，简化伺服驱动部署，使开发者专注于算法。  
+
 **Tinker** is an open-source bipedal robot designed to provide robotic enthusiasts and developers with a hands-on platform. This project includes a detailed list of required hardware materials, software resources, and comprehensive installation steps to help users easily build and program their own robot.
 
 Through Tinker, users will not only gain insights into the fundamental principles of robot movement and control, but also have the opportunity to personalize and enhance their projects. We aim to inspire more people to explore and engage with robotics technology through this initiative.
 
-🚶 Reinforcement Learning-Based Control
+## 🌟 Key Features
+- **🛠️ Simplicity**: No transmission mechanism required; assembly can be completed using 3D printing and carbon plate cutting.
+- **💰 Low Cost**: The total BOM cost is under 20,000 RMB, with 90% of components (motors, controllers) being off-the-shelf products, supporting secondary development.
+- **🤖 Embodied Intelligence Development**: Utilizes the OmniRobLab framework to simplify servo drive deployment, allowing developers to focus on algorithms.
 
-🧾 Step-by-Step Assembly Instructions
-
-💡 Customization and Expansion
+---
 
 ## Core Technologies
 
@@ -38,6 +46,8 @@ The system is equipped with open-source training software that provides a wide r
 
 This solution combines real-world robotics with reinforcement learning to provide a comprehensive development and deployment framework.
 
+---
+
 ## Performance Parameters
 
 1. Motion Performance
@@ -54,6 +64,8 @@ This solution combines real-world robotics with reinforcement learning to provid
    
 	1.	Controller: Equipped with high-performance controllers such as NVIDIA Jetson Nano, Odroid, and STM32, enabling fast data processing for real-time response and precise control.
 	2.	Sensors: The system integrates advanced sensors, including a gyroscope, accelerometer, and electronic compass, to continuously monitor the robot’s posture, motion state, and surrounding environment. This provides essential data for accurate control and intelligent decision-making. Additionally, it supports Wi-Fi and 2.4G wireless Bluetooth, ensuring convenient data transmission and remote control capabilities.
+
+---
 
 ## Table of Contents
 - [Tinker Usage Guide](https://github.com/Yuexuan9/Tinker/tree/main/guide)
@@ -74,6 +86,20 @@ Comprehensive instructions on how to assemble Tinker from scratch, complete with
 
 ## Tinker Custom Development
 Explore how to extend and enhance Tinker’s functionalities through custom development. This section will cover software development.
+
+---
+
+## 🔄 软件版本更新
+
+### V1.0
+- **固件更新方法**：详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/firmware)。
+
+### V1.1
+**更新内容：**
+1. **URDF 结构优化**，使仿真模型与实际机器人保持一致。
+2. **训练软件架构优化**，提升强化学习训练效率。
+3. **新增多种头部设计方案**，增强扩展性。
+4. **嵌入式软件升级** 至 **OmniRobLabV1.0**。
 
 ---
 
