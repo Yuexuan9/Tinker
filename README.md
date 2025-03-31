@@ -67,6 +67,27 @@ This solution combines real-world robotics with reinforcement learning to provid
 
 ---
 
+## 整机搭载了如下的传感器：
+- **📷 深度相机**  
+  身体和头部配备两个深度相机，用于采集模仿数据。  
+
+- **🗺️ 多样化导航**  
+  可部署 **Mid360** 或使用深度相机实现自主导航和地图构建。  
+
+- **🎥 FPV 头部操控**  
+  具备头部自由度控制功能，可用于 **FPV 室内场景查看**。  
+
+- **💡 高性能具身计算**  
+  **控制+感知计算双单元** 支撑运动控制与模仿学习部署。  
+
+- **🎬 动画编辑二次开发**  
+  通过示教完成动画编辑并播放，支持 **RL（强化学习）** 和 **Python 二次开发**。  
+
+- **🗣️ 多模态交互**  
+  搭载 **语音和灯光功能**，可部署 **大模型** 实现语音交互。 
+
+---
+
 ## Table of Contents
 - [Tinker Usage Guide](https://github.com/Yuexuan9/Tinker/tree/main/guide)
 - [Tinker BOM List](https://github.com/Yuexuan9/Tinker/tree/main/bom)
