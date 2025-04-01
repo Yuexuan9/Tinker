@@ -134,15 +134,15 @@ Before installation:
 
 ### **Step 3: Install Jetson Nano**  
 Attach the **Jetson Nano** to the **back panel** using a **3D-printed support structure**.  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-23.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-22.png" width="300" />
 
 
 After assembling the **main control system hardware**, mount it onto the **robot body** using the **support frame**.  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-24.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-23.png" width="300" />
 
 
 Complete **cable routing** using the protective cover.  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-25.jpeg" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-24.png" width="300" />
 
 
 At this stage, **Tinker assembly is complete**!  
@@ -157,7 +157,7 @@ Before installing the **head**, ensure:
 
 ### **Step 1: Install OLED & IMU Modules**  
 For **better gait stability**, an **external IMU module** is recommended.  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-26.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-25.jpeg" width="300" />
 
 
 The **OLED module** displays:  
@@ -166,8 +166,8 @@ The **OLED module** displays:
 - **Motor states**  
 
 Install the **OLED module** into the **robot cover cutout**, then connect it to the **main controller UART**.  
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-26.png" width="300" />
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-27.png" width="300" />
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-28.png" width="300" />
 
 
 ---
