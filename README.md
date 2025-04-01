@@ -133,10 +133,10 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 ## 🔄 软件版本更新
 
 ### V1.0
-- **固件更新方法**：详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/assemble/README.md)。
+- **固件更新方法:** 详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/assemble/README.md)。
 
 ### V1.1
-**更新内容：**：详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/assemble/README_V1.1.md)。
+**更新内容:** 详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/assemble/README_V1.1.md)。
 1. **URDF 结构优化**，使仿真模型与实际机器人保持一致。
 2. **训练软件架构优化**，提升强化学习训练效率。
 3. **新增多种头部设计方案**，增强扩展性。
