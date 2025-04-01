@@ -1,7 +1,7 @@
 # Tinker Assembly Guide  
 
 ## 🏗️ Full Machine Assembly  
-![Full Machine Assembly](docs/images/assemble/20250401-1.PNG)  
+![Full Machine Assembly](https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-1.PNG)  
 
 ## ⚙️ Basic Configuration  
 - **Router Name**: `Tinker-2.4G-ID`  
