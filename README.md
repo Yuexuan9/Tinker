@@ -133,7 +133,7 @@ Explore how to extend and enhance Tinker’s functionalities through custom deve
 ## 🔄 软件版本更新
 
 ### V1.0
-- **固件更新方法:** 详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/assemble/README.md)。
+**固件更新方法:** 详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/assemble/README.md)。
 
 ### V1.1
 **更新内容:** 详见 [详细教程](https://github.com/Yuexuan9/Tinker/tree/main/assemble/README_V1.1.md)。
