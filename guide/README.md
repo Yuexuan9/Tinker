@@ -413,6 +413,7 @@ kin_param: #0 left leg
 
 
 ### Robot Setup Guide
+V1.0:
 
 1. **IP Connection**
 
@@ -659,5 +660,114 @@ Restart the UDP publisher program:
 <div align="center">
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/011624.png" height="500" />
 </div>
+
+# V1.1:
+
+## 1. IP Connection
+
+1. Power on the device and wait a few minutes. Search for WiFi on your computer and connect:
+   - **WiFi Name**: `Tinker-2.4G-XXX`
+   - **Password**: `11111111`
+2. Open a browser and log in to `http://192.168.1.1/`
+   - **Username**: `admin`
+   - **Password**: `admin`
+3. Click on **Client** to view network information:
+   - `192.168.1.11` is the **Odroid control board**
+   - `192.168.1.132` is the **NVIDIA module**
+   - (The last three digits may vary for different machines)
+
+![Network Info](path/to/network_info.png)
+
+---
+
+## 2. Connecting the Upper Computer
+
+### 2.1 Wired Remote Control Version
+
+1. There are two necessary files for the upper computer:
+   - The **folder** `MOCO_OCU_Images` must be placed in the `D:` drive.
+   - The **other file** can be placed anywhere.
+
+![File Directory](path/to/file_directory.png)
+
+2. Modify the upper computer's IP:
+   - Open `ocu_param.txt` in `D:\MOCO_OCU_Images` and update the following:
+     ```plaintext
+     UDP_IP_WIFI, 192.168.1.239
+     UDP_IP_NET,  192.168.1.248
+     UDP_IP_WIFI_AP, 192.168.1.114
+     UDP_IP_Cassie, 192.168.1.128
+     ```
+
+3. Connect the remote controller to the computer via a USB interface.
+4. Open `main_win.exe` in the `\main_win2024\main_win` folder.
+
+![Main Program](path/to/main_program.png)
+
+5. Click the **dropdown arrow** next to **Connect**, and select `UDP_WIFI`.
+6. If successfully connected, sensor data (e.g., IMU data) will be displayed:
+
+![IMU Data](path/to/imu_data.png)
+
+### 2.2 Wireless Remote Control Version
+
+To be updated...
+
+---
+
+## 3. Calibration
+
+### 3.1 Motor Calibration
+
+(Steps to be added)
+
+### 3.2 Sensor Calibration
+
+1. Place the robot as shown below, ensuring that the four supporting pillars (marked by arrows) are level:
+
+![Calibration Pose](path/to/calibration_pose.png)
+![Support Points](path/to/support_points.png)
+
+2. Connect the upper computer and click **“Sensor”**. Then, perform the following:
+   - Click **“Calibrate Accelerometer”**
+   - Click **“Calibrate Gyroscope”**
+   - Click **“Return”**
+3. If the upper computer displays **Pitch Angle and Roll Angle** close to `0`, calibration is complete.
+
+![Sensor Interface](path/to/sensor_interface.png)
+![Calibration Complete](path/to/calibration_complete.png)
+
+---
+
+## 4. Operating the Robot
+
+1. **Step 1**: Long press `X` to make the robot stand up (manually assist to prevent falling); then release `X`.
+2. **Step 2**: Short press `X` again to switch to **Reinforcement Learning mode** (must be activated in Step 3).
+3. **Step 4**:
+   - **Left joystick**: Controls forward/backward movement.
+   - **Right joystick**: Controls head rotation.
+   - `LB/LT/RB/RT/1/2`: Controls turning.
+4. **Step 5**:
+   - **Long press `B`** to make the robot stand.
+   - To stop, press **`Y`** to make the robot slowly lower and stop.
+   - **In case of emergency**, press the **bottom left button** to disable the robot.
+
+![Operation Guide](path/to/operation_guide.png)
+![Remote Control Buttons](path/to/remote_control_buttons.png)
+
+---
+
+## 5. Updating the Training Model
+
+### Replacing the Network Model
+
+1. Open **WinSCP**.
+2. In `Host name`, enter the **Jetson IP** and **password**.
+3. Navigate to `/home/nvidia/sim2sim_lcm`:
+   - **Delete** the two old network models on the right side.
+   - **Drag and drop** the new network model into the corresponding directory.
+4. Restart the UDP transmission program:
+   ```sh
+   ./udp_publisher_tinker
 
 ---
