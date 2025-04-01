@@ -84,7 +84,27 @@ This solution combines real-world robotics with reinforcement learning to provid
   通过示教完成动画编辑并播放，支持 **RL（强化学习）** 和 **Python 二次开发**。  
 
 - **🗣️ 多模态交互**  
-  搭载 **语音和灯光功能**，可部署 **大模型** 实现语音交互。 
+  搭载 **语音和灯光功能**，可部署 **大模型** 实现语音交互。
+
+## 🚀 Integrated Sensors  
+
+- **📷 Depth Cameras**  
+  Equipped with two depth cameras on the body and head for imitation data collection.  
+
+- **🗺️ Versatile Navigation**  
+  Supports **Mid360** deployment or depth camera-based autonomous navigation and mapping.  
+
+- **🎥 FPV Head Control**  
+  Head movement freedom allows **FPV indoor scene observation**.  
+
+- **💡 High-Performance Embodied Computing**  
+  **Dual-unit control + perception computing** supports motion control and imitation learning deployment.  
+
+- **🎬 Animation Editing & Secondary Development**  
+  Enables animation editing and playback via demonstration, supporting **RL (Reinforcement Learning)** and **Python-based secondary development**.  
+
+- **🗣️ Multimodal Interaction**  
+  Integrated **voice and lighting functions**, capable of deploying **large models** for voice interaction.  
 
 ---
 
