@@ -1,7 +1,7 @@
 # Tinker Assembly Guide  
 
 ## 🏗️ Full Machine Assembly  
-![Full Machine Assembly](path/to/image)  
+![Full Machine Assembly](docs/images/assemble/20250401-1.PNG)  
 
 ## ⚙️ Basic Configuration  
 - **Router Name**: `Tinker-2.4G-ID`  
@@ -39,20 +39,20 @@
 
 ### **Step 1: Install Power Board & Base**  
 Ensure the **battery slot** is positioned correctly at the back of the baseplate. The **24V DC power terminal** should align with the power board PCB.  
-![Power Board Installation](path/to/image)  
-![Base Assembly](path/to/image)  
+![Power Board Installation](docs/images/assemble/20250401-2.png)  
+![Base Assembly](docs/images/assemble/20250401-3.png)  
 
 ### **Step 2: Install Bottom Support**  
 Secure the bottom support using **M4 screws**.  
-![Bottom Support](path/to/image)  
+![Bottom Support](docs/images/assemble/20250401-4.png)  
 
 ### **Step 3: Install Top Plate & Motors**  
 Mount the **top plate** and attach **two 6006 motors (ID 1)**, ensuring the **debug port aligns with the cutout**.  
-![Top Plate & Motors](path/to/image)  
+![Top Plate & Motors](docs/images/assemble/20250401-5.png)  
 
 ### **Step 4: Install Aluminum Structure**  
 Attach the **aluminum structure** onto the **6006 motors**.  
-![Aluminum Structure](path/to/image)  
+![Aluminum Structure](docs/images/assemble/20250401-6.png)  
 
 ### **Step 5: Install Two 8008 Motors**  
 Mount **two 8008 motors (ID 2)** along with their **aluminum supports** to connect with the **6006 motors** above.  
