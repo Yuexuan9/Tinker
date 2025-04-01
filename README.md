@@ -86,7 +86,7 @@ This solution combines real-world robotics with reinforcement learning to provid
 - **🗣️ 多模态交互**  
   搭载 **语音和灯光功能**，可部署 **大模型** 实现语音交互。
 
-## 🚀 Integrated Sensors  
+## Integrated Sensors  
 
 - **📷 Depth Cameras**  
   Equipped with two depth cameras on the body and head for imitation data collection.  
