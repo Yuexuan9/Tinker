@@ -676,7 +676,7 @@ Restart the UDP publisher program:
    - `192.168.1.132` is the **NVIDIA module**
    - (The last three digits may vary for different machines)
 
-![Network Info](path/to/network_info.png)
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-1.png" height="500" />
 
 ---
 
@@ -688,7 +688,7 @@ Restart the UDP publisher program:
    - The **folder** `MOCO_OCU_Images` must be placed in the `D:` drive.
    - The **other file** can be placed anywhere.
 
-![File Directory](path/to/file_directory.png)
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-2.png" height="500" />
 
 2. Modify the upper computer's IP:
    - Open `ocu_param.txt` in `D:\MOCO_OCU_Images` and update the following:
@@ -702,12 +702,12 @@ Restart the UDP publisher program:
 3. Connect the remote controller to the computer via a USB interface.
 4. Open `main_win.exe` in the `\main_win2024\main_win` folder.
 
-![Main Program](path/to/main_program.png)
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-3.png" height="500" />
 
 5. Click the **dropdown arrow** next to **Connect**, and select `UDP_WIFI`.
 6. If successfully connected, sensor data (e.g., IMU data) will be displayed:
 
-![IMU Data](path/to/imu_data.png)
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-4.png" height="500" />
 
 ### 2.2 Wireless Remote Control Version
 
@@ -725,8 +725,8 @@ To be updated...
 
 1. Place the robot as shown below, ensuring that the four supporting pillars (marked by arrows) are level:
 
-![Calibration Pose](path/to/calibration_pose.png)
-![Support Points](path/to/support_points.png)
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-5.png" height="500" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-6.png" height="500" />
 
 2. Connect the upper computer and click **“Sensor”**. Then, perform the following:
    - Click **“Calibrate Accelerometer”**
@@ -734,8 +734,8 @@ To be updated...
    - Click **“Return”**
 3. If the upper computer displays **Pitch Angle and Roll Angle** close to `0`, calibration is complete.
 
-![Sensor Interface](path/to/sensor_interface.png)
-![Calibration Complete](path/to/calibration_complete.png)
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-7.png" height="500" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-8.png" height="500" />
 
 ---
 
@@ -752,8 +752,8 @@ To be updated...
    - To stop, press **`Y`** to make the robot slowly lower and stop.
    - **In case of emergency**, press the **bottom left button** to disable the robot.
 
-![Operation Guide](path/to/operation_guide.png)
-![Remote Control Buttons](path/to/remote_control_buttons.png)
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-9.png" height="500" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-10.png" height="500" />
 
 ---
 
@@ -769,5 +769,7 @@ To be updated...
 4. Restart the UDP transmission program:
    ```sh
    ./udp_publisher_tinker
+
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/guide/20250402-11.png" height="500" />
 
 ---
