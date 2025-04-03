@@ -234,7 +234,7 @@ After completing the robot training and model export:
 ## 4.4 Development Process
 
 <div align="center">
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/whiteboard_exported_image.png" height="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/whiteboard_exported_image.png" height="100" />
 </div>
 
 ## 4.5 Tinker Robot Model Folder Structure
