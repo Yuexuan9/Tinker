@@ -168,6 +168,80 @@ Start RL program:
 Start the migration software on the server or JetsonNano side, and confirm that the data is refreshed
 Press X again in standing mode, and the robot will use RL data for gait driving. At this time, the left joystick corresponds to the XY speed command, the left and right triggers at the back of the handle correspond to the heading command, and the handle and joystick correspond to the robot's head posture. Press B to re-enter the locked state to achieve standing, and the power-off protection is under the button
 
+# V1.1 Version Update Notes
+
+## Updates
+- Added gait movement and standing functions.
+- Enabled quick configuration through a unified `global_config.py` file.
+
+
+---
+
+
+# 4. Software Usage
+
+## 4.1 V1.1 Version Configuration
+
+Modify the `global_config.py` file to quickly configure the training object and model files:
+
+```python
+import os
+ROOT_DIR = os.path.dirname(__file__)
+ENVS_DIR = os.path.join(ROOT_DIR, 'Env')
+
+# Select robot: Taitan / Tinker / Tinymal
+ROBOT_SEL = 'Tinker'
+
+# Select gait: Trot / Stand
+GAIT_SEL = 'Trot'
+
+# Model file path
+PLAY_DIR = 'XXX.pt'  
+
+# Sim2Sim commands
+SPD_X = 0.3
+SPD_Y = 0.0
+SPD_YAW = 0
+
+# Training parameters
+MAX_ITER = 30000
+SAVE_DIV = 5000
+```
+
+
+## 4.2 Common Script Files
+
+| File Name           | Function                                  |
+|---------------------|-------------------------------------------|
+| `train.py`          | Train the model                           |
+| `play.py`           | Test the model and export `.pt` file      |
+| `sim2sim_tinker.py` | Mujoco simulation testing                 |
+| `pt2tvm.py`         | Convert model format to TVM for robots    |
+| `exp_draw.py`       | Plot reward curves and tuning parameters  |
+
+## 4.3 Deployment Instructions
+
+After completing the robot training and model export:
+
+1. Convert the model to TVM format (`policy_arm64_cpu.so`)
+2. Use WinSCP or other tools to upload it to the Model directory in the robot's control files
+3. Ensure the file name matches the exported model
+
+## 4.4 Development Process
+
+*Development Process Based on OmniBotLab is temporarily unavailable outside Feishu Docs.*
+
+## 4.5 Tinker Robot Model Folder Structure
+
+The following directories contain different gait models:
+
+| Directory | Function                  |
+|-----------|---------------------------|
+| `Trot`    | Gait movement TVM model   |
+| `Stand`   | Standing TVM model        |
+| `Dance`   | Dance TVM model           |
+```
+
 ## Video
 
 <a href="https://youtu.be/30T1W8FTUro">
