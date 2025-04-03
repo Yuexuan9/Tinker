@@ -3,7 +3,7 @@
 
 
 ## 📢 **UPDATE**
-> Please visit [README_v1.1.md](README_v1.1.md) for the latest version of documentation.
+> Please visit [README_v1.1.md](https://github.com/Yuexuan9/Tinker/blob/main/assemble/README_v1.1.md) for the latest version of documentation.
 
 ---
 
