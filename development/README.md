@@ -219,6 +219,10 @@ SAVE_DIV = 5000
 | `pt2tvm.py`         | Convert model format to TVM for robots    |
 | `exp_draw.py`       | Plot reward curves and tuning parameters  |
 
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/2025040401.png" height="300" />
+</div>
+
 ## 4.3 Deployment Instructions
 
 After completing the robot training and model export:
@@ -229,7 +233,9 @@ After completing the robot training and model export:
 
 ## 4.4 Development Process
 
-*Development Process Based on OmniBotLab is temporarily unavailable outside Feishu Docs.*
+<div align="center">
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/development/whiteboard_exported_image.png" height="300" />
+</div>
 
 ## 4.5 Tinker Robot Model Folder Structure
 
@@ -242,8 +248,3 @@ The following directories contain different gait models:
 | `Dance`   | Dance TVM model           |
 ```
 
-## Video
-
-<a href="https://youtu.be/30T1W8FTUro">
-  <img src="https://img.youtube.com/vi/30T1W8FTUro/0.jpg" width="500" />
-</a>
