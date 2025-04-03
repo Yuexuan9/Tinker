@@ -4,6 +4,7 @@
 
 ## 📢 **UPDATE**
 > Please visit [README_V1.1.md](https://github.com/Yuexuan9/Tinker/blob/main/assemble/README_V1.1.md) for the latest version of documentation.
+> <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-1.PNG" width="300" />
 
 ---
 
