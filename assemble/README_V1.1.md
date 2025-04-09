@@ -1,7 +1,7 @@
 # Tinker Assembly Guide  
 
 ## 🏗️ Full Machine Assembly  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-1.PNG" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/2025040901.PNG" width="300" />
 
 ## ⚙️ Basic Configuration  
 - **Router Name**: `Tinker-2.4G-ID`  
@@ -71,7 +71,7 @@ Ensure the **"chicken head" structure** and **aluminum frame** are correctly ori
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-11.png" width="300" />
 
 ### **Step 8: Install Battery & Chest Structure**  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-12.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/2025assemblingthemiddkeframe.png" width="300" />
 
 
 ### **Step 9: Install Carbon Fiber Beams**  
@@ -83,10 +83,11 @@ After installing **six motors**, assemble the **carbon fiber beams** to complete
 
 ## 🦵 Thigh Assembly  
 
-Once the **middle frame** is completed:  
-1. Connect **all motor cables properly**.  
-2. Align the **"chicken head" structure** with the **thigh arm carbon plate cutouts**.  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-14.png" width="300" />
+Following the completion of the middle frame assembly, both thigh modules have been successfully assembled. 
+The next step involves mounting the carbon fiber thigh plates. 
+Before proceeding, it’s necessary to ensure that all motor cables are correctly connected. 
+It’s also crucial to verify the orientation of the “chicken head” in relation to the notch on the thigh arm carbon plate. 
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/2025assemblingthethighs.png" width="300" />
 
 
 After installing the **thigh carbon plate**, attach the **left and right cable protection structures**. Ensure:  
@@ -181,7 +182,7 @@ The **power supply diagram** below shows **Tinker’s complete electrical system
 - **Single-leg CAN & power cables** are merged into **one route** inside the body and connected to the main control board.  
 
 **Diagram:**  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_exported_image.png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250409whiteboard.png" width="300" />
 
 
 ### **Communication Wiring**  
@@ -195,7 +196,7 @@ The **power supply diagram** below shows **Tinker’s complete electrical system
 - **RX on servo board → RX on control board**  
 
 **Diagram:**  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/whiteboard_exported_image(1).png" width="300" />
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250409whiteboard(1).png" width="300" />
 
 ---
 
@@ -203,14 +204,11 @@ The **power supply diagram** below shows **Tinker’s complete electrical system
 
 After completing the **main body assembly**, proceed with **head installation**.  
 
-### **Step 1: Fixed-Angle Head Installation**  
-The current **fixed-angle head design** supports:  
-- **LiDAR mounting**  
-- **Monocular camera mounting**  
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/2025040902.png" width="300" /> 
 
 Additionally, a **camera mount is available in the lower chest area**.  
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-28.png" width="300" />
-<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/20250401-29.png" width="300" />
+
+<img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/2025040903.png" width="300" />
 
 ---
 
