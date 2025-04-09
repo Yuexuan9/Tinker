@@ -2,6 +2,7 @@
 
 ## 🏗️ Full Machine Assembly  
 <img src="https://github.com/Yuexuan9/Tinker/raw/main/docs/images/assemble/2025040901.PNG" width="300" />
+	🔗 Open-source project (V2 version): https://github.com/golaced/OmniBotSeries-Tinker
 
 ## ⚙️ Basic Configuration  
 - **Router Name**: `Tinker-2.4G-ID`  
